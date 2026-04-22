@@ -1,0 +1,3 @@
+
+config SHIELD_OKP_U
+    def_bool $(shields_list_contains,okp_u)

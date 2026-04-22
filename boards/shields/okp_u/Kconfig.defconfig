@@ -1,0 +1,7 @@
+
+if SHIELD_OKP_U
+
+config ZMK_KEYBOARD_NAME
+    default "okp_u"
+
+endif
