@@ -29,6 +29,13 @@
             hold-trigger-on-release;
             require-prior-idle-ms = <150>;
         };
+
+        myTBMHZH: myTBMHZH {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MYTBMHZH";
+            #binding-cells = <0>;
+            bindings = <&kp INTERNATIONAL_5>, <&kp LANGUAGE_5>;
+        };
     };
 
     keymap {
@@ -45,10 +52,10 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE  &kp LA(LEFT)  &kp LA(RIGHT_ARROW)  &kp F4       &kp F5          &none  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(HOME)  &kp LC(END)  &kp DELETE
-&kp LC(A)  &kp LC(S)     &kp K_APPLICATION    &kp LA(TAB)  &none           &none  &kp LEFT         &kp DOWN           &kp UP        &kp RIGHT    &kp BACKSPACE
-&kp LC(Z)  &kp LC(X)     &kp LC(C)            &kp LC(V)    &none           &none  &none            &kp TAB            &kp HOME      &kp END      &kp ENTER
-&none      &none         &none                &kp F2       &kp LANGUAGE_5         &none            &none              &none         &none        &none
+&kp GRAVE  &kp LA(LEFT)  &kp LA(RIGHT_ARROW)  &kp F4       &kp F5     &none  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(HOME)  &kp LC(END)  &kp DELETE
+&kp LC(A)  &kp LC(S)     &kp K_APPLICATION    &kp LA(TAB)  &none      &none  &kp LEFT         &kp DOWN           &kp UP        &kp RIGHT    &kp BACKSPACE
+&kp LC(Z)  &kp LC(X)     &kp LC(C)            &kp LC(V)    &none      &none  &none            &kp TAB            &kp HOME      &kp END      &kp ENTER
+&none      &none         &none                &kp F2       &myTBMHZH         &none            &none              &none         &none        &none
             >;
         };
 
