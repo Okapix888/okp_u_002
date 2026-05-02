@@ -15,6 +15,21 @@
             bindings = <&kp DEL>;
             key-positions = <18 19>;
         };
+
+        cbcp {
+            bindings = <&kp LC(C)>;
+            key-positions = <14 13>;
+        };
+
+        cbct {
+            bindings = <&kp LC(X)>;
+            key-positions = <12 13>;
+        };
+
+        cbpst {
+            bindings = <&kp LC(V)>;
+            key-positions = <12 13 14>;
+        };
     };
 
     behaviors {
@@ -61,10 +76,10 @@
 
         layer_2 {
             bindings = <
-&kp EQUAL      &kp LC(NUMBER_1)   &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(INT_YEN)  &none  &kp LS(SEMICOLON)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE
-&kp RS(COLON)  &none              &none             &kp COLON         &kp AT_SIGN      &none  &kp MINUS          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE
-&kp SLASH      &kp RIGHT_BRACKET  &kp PIPE          &kp UNDERSCORE    &none            &none  &none              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
-&none          &none              &none             &none             &kp RSHFT               &kp PERIOD         &kp NUMBER_0  &none         &none         &mt RIGHT_ALT ENTER
+&kp EQUAL             &kp LC(NUMBER_1)   &kp LS(NUMBER_8)  &kp LS(NUMBER_9)     &kp LS(INT_YEN)   &none  &kp LS(SEMICOLON)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE
+&kp LS(SINGLE_QUOTE)  &none              &none             &kp SINGLE_QUOTE     &kp LEFT_BRACKET  &none  &kp MINUS          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE
+&kp SLASH             &kp RIGHT_BRACKET  &kp PIPE          &kp INTERNATIONAL_1  &none             &none  &none              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
+&none                 &none              &none             &none                &kp RSHFT                &kp PERIOD         &kp NUMBER_0  &none         &none         &mt RIGHT_ALT ENTER
             >;
         };
 
