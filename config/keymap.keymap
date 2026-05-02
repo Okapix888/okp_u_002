@@ -176,11 +176,11 @@
             label = "MC_OS_TU";
         };
 
-        mc_os_te: mc_os_tu {
+        mc_os_te: mc_os_te {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp E>;
-            label = "MC_OS_TU";
+            label = "MC_OS_TE";
         };
 
         mc_os_to: mc_os_to {
