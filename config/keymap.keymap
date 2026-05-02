@@ -29,6 +29,12 @@
             bindings = <&kp LC(V)>;
             key-positions = <12 13 14>;
         };
+
+        cb_os_e {
+            bindings = <&kp E>;
+            key-positions = <1 36>;
+            layers = <4>;
+        };
     };
 
     behaviors {
