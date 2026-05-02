@@ -61,6 +61,11 @@
             bindings = <&mc_os_no>;
             key-positions = <19 39>;
         };
+
+        cb_os_o {
+            bindings = <&kp O>;
+            key-positions = <18 39>;
+        };
     };
 
     behaviors {
@@ -268,7 +273,7 @@
         layer_4 {
             bindings = <
 &kp PERIOD  &mc_os_ka  &mc_os_ta  &mc_os_ko  &mc_os_sa         &kp NUMBER_4  &trans               &mc_os_ti  &mc_os_ku  &mc_os_tu  &trans
-&kp U       &mc_os_si  &mc_os_te  &mc_os_ke  &mc_os_se         &trans        &mc_os_to            &mc_os_ki  &none      &kp I      &trans
+&kp U       &mc_os_si  &mc_os_te  &mc_os_ke  &mc_os_se         &trans        &none                &mc_os_to  &mc_os_ki  &kp I      &trans
 &trans      &trans     &mc_os_su  &trans     &trans            &trans        &trans               &mc_os_so  &mc_os_ne  &trans     &trans
 &trans      &trans     &to 0      &none      &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &none      &none      &trans     &trans
             >;
