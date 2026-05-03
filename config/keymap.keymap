@@ -15,17 +15,17 @@
             key-positions = <18 19>;
         };
 
-        cbcp {
+        cb-cp {
             bindings = <&kp LC(C)>;
             key-positions = <14 13>;
         };
 
-        cbct {
+        cb-ct {
             bindings = <&kp LC(X)>;
             key-positions = <12 13>;
         };
 
-        cbpst {
+        cb-pst {
             bindings = <&kp LC(V)>;
             key-positions = <12 13 14>;
         };
@@ -33,115 +33,115 @@
         cb_os_e {
             bindings = <&kp E>;
             key-positions = <1 36>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_a {
             bindings = <&kp A>;
             key-positions = <12 36>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_na {
             bindings = <&mc_os_na>;
             key-positions = <36 13>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_ni {
             bindings = <&mc_os_ni>;
             key-positions = <7 39>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_nu {
             bindings = <&mc_os_nu>;
             key-positions = <39 28>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_no {
             bindings = <&mc_os_no>;
             key-positions = <19 39>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_o {
             bindings = <&kp O>;
             key-positions = <18 39>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_ma {
             bindings = <&mc_os_ma>;
             key-positions = <9 39>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_mi {
             bindings = <&mc_os_mi>;
             key-positions = <39 17>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_mu {
             bindings = <&mc_os_mu>;
             key-positions = <39 30>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_mo {
             bindings = <&mc_os_mo>;
             key-positions = <15 36>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_ya {
             bindings = <&mc_os_ya>;
             key-positions = <25 36>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_yu {
             bindings = <&mc_os_yu>;
             key-positions = <39 29>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_yo {
             bindings = <&mc_os_yo>;
             key-positions = <39 6>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_wa {
             bindings = <&mc_os_wa>;
             key-positions = <39 31>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_wo {
             bindings = <&mc_os_wo>;
             key-positions = <11 36>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_ri {
             bindings = <&mc_os_ri>;
             key-positions = <2 36>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_ru {
             bindings = <&mc_os_ru>;
             key-positions = <39 8>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_re {
             bindings = <&mc_os_re>;
             key-positions = <4 36>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_ro {
@@ -152,7 +152,7 @@
         cb_os_xa {
             bindings = <&mc_os_xa>;
             key-positions = <0 36>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_xi {
@@ -163,7 +163,7 @@
         cb_os_xu {
             bindings = <&mc_os_xu>;
             key-positions = <22 36>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_xe {
@@ -174,7 +174,7 @@
         cb_os_xo {
             bindings = <&mc_os_xo>;
             key-positions = <32 39>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_xya {
@@ -185,7 +185,7 @@
         cb_os_xyu {
             bindings = <&mc_os_xyu>;
             key-positions = <14 36>;
-            layers = <4>;
+            layers = <1>;
         };
 
         cb_os_xyo {
@@ -568,7 +568,16 @@
 &kp Q      &kp W      &kp E  &kp R                     &kp T             &kp NUMBER_0  &kp Y      &kp U                      &kp I      &kp O       &kp P
 &kp A      &kp S      &kp D  &myholdtap1 LEFT_SHIFT F  &kp G             &none         &kp H      &myholdtap1 RIGHT_SHIFT J  &kp K      &kp L       &kp SPACE
 &kp Z      &kp X      &kp C  &kp V                     &kp B             &none         &kp N      &kp M                      &kp COMMA  &kp PERIOD  &kp MINUS
-&lt 3 TAB  &kt LG(L)  &to 4  &lt 2 B                   &kp LEFT_CONTROL                &kp LSHFT  &lt 1 N                    &mo 3      &mc_os_ka   &mt LEFT_ALT ENTER
+&lt 4 TAB  &kt LG(L)  &to 1  &lt 3 B                   &kp LEFT_CONTROL                &kp LSHFT  &lt 2 N                    &mo 4      &mc_os_ka   &mt LEFT_ALT ENTER
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&kp PERIOD  &mc_os_ka  &mc_os_ta  &mc_os_ko  &mc_os_sa         &kp NUMBER_4  &mc_os_ra            &mc_os_ti  &mc_os_ku  &mc_os_tu  &kp COMMA
+&kp U       &mc_os_si  &mc_os_te  &mc_os_ke  &mc_os_se         &trans        &mc_os_ha            &mc_os_to  &mc_os_ki  &kp I      &mc_os_nn
+&kp PERIOD  &mc_os_hi  &mc_os_su  &mc_os_hu  &mc_os_he         &trans        &mc_os_me            &mc_os_so  &mc_os_ne  &mc_os_ho  &kp SLASH
+&kp TAB     &trans     &to 0      &mo 3      &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &mo 2      &none      &trans     &myholdtap1 LEFT_ALT ENTER
             >;
         };
 
@@ -596,15 +605,6 @@
 &none         &none  &none  &none  &none  &none         &none  &none  &none  &none  &none
 &none         &none  &none  &none  &none  &none         &none  &none  &none  &none  &none
 &kp TAB       &none  &none  &none  &none                &none  &none  &none  &none  &mt RIGHT_ALT ENTER
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&kp PERIOD  &mc_os_ka  &mc_os_ta  &mc_os_ko  &mc_os_sa         &kp NUMBER_4  &mc_os_ra            &mc_os_ti  &mc_os_ku  &mc_os_tu  &kp COMMA
-&kp U       &mc_os_si  &mc_os_te  &mc_os_ke  &mc_os_se         &trans        &mc_os_ha            &mc_os_to  &mc_os_ki  &kp I      &mc_os_nn
-&kp PERIOD  &mc_os_hi  &mc_os_su  &mc_os_hu  &mc_os_he         &trans        &mc_os_me            &mc_os_so  &mc_os_ne  &mc_os_ho  &kp SLASH
-&kp TAB     &trans     &to 0      &none      &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &none      &none      &trans     &myholdtap1 LEFT_ALT ENTER
             >;
         };
     };
