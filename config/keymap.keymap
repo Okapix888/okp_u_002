@@ -888,6 +888,13 @@
             bindings = <&kp B &kp O>;
             label = "MC_OS_BO";
         };
+
+        cb_os_on: cb_os_on {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANG4 &to 1>;
+            label = "CB_OS_ON";
+        };
     };
 
     keymap {
@@ -907,7 +914,7 @@
 &kp PERIOD  &mc_os_ka  &mc_os_ta  &mc_os_ko  &mc_os_sa         &kp NUMBER_4  &mc_os_ra            &mc_os_ti  &mc_os_ku  &mc_os_tu  &kp COMMA
 &kp U       &mc_os_si  &mc_os_te  &mc_os_ke  &mc_os_se         &trans        &mc_os_ha            &mc_os_to  &mc_os_ki  &kp I      &mc_os_nn
 &kp PERIOD  &mc_os_hi  &mc_os_su  &mc_os_hu  &mc_os_he         &trans        &mc_os_me            &mc_os_so  &mc_os_ne  &mc_os_ho  &kp SLASH
-&kp TAB     &trans     &to 0      &mo 3      &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &mo 2      &none      &trans     &myholdtap1 LEFT_ALT ENTER
+&kp TAB     &trans     &to 0      &mo 3      &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &mo 2      &kp LANG4  &trans     &myholdtap1 LEFT_ALT ENTER
             >;
         };
 
