@@ -347,6 +347,12 @@
             bindings = <&kp MINUS>;
             key-positions = <23 36>;
         };
+
+        cb_os_xtu {
+            bindings = <&mc_os_xtu>;
+            key-positions = <21 39>;
+            layers = <1>;
+        };
     };
 
     behaviors {
@@ -894,6 +900,13 @@
             #binding-cells = <0>;
             bindings = <&kp LANG4 &to 1>;
             label = "CB_OS_ON";
+        };
+
+        mc_os_xtu: mc_os_xtu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp T &kp U>;
+            label = "MC_OS_XTU";
         };
     };
 
