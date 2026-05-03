@@ -45,26 +45,152 @@
         cb_os_na {
             bindings = <&mc_os_na>;
             key-positions = <36 13>;
+            layers = <4>;
         };
 
         cb_os_ni {
             bindings = <&mc_os_ni>;
             key-positions = <7 39>;
+            layers = <4>;
         };
 
         cb_os_nu {
             bindings = <&mc_os_nu>;
             key-positions = <39 28>;
+            layers = <4>;
         };
 
         cb_os_no {
             bindings = <&mc_os_no>;
             key-positions = <19 39>;
+            layers = <4>;
         };
 
         cb_os_o {
             bindings = <&kp O>;
             key-positions = <18 39>;
+            layers = <4>;
+        };
+
+        cb_os_ma {
+            bindings = <&mc_os_ma>;
+            key-positions = <9 39>;
+            layers = <4>;
+        };
+
+        cb_os_mi {
+            bindings = <&mc_os_mi>;
+            key-positions = <39 17>;
+            layers = <4>;
+        };
+
+        cb_os_mu {
+            bindings = <&mc_os_mu>;
+            key-positions = <39 30>;
+            layers = <4>;
+        };
+
+        cb_os_mo {
+            bindings = <&mc_os_mo>;
+            key-positions = <15 36>;
+            layers = <4>;
+        };
+
+        cb_os_ya {
+            bindings = <&mc_os_ya>;
+            key-positions = <25 36>;
+            layers = <4>;
+        };
+
+        cb_os_yu {
+            bindings = <&mc_os_yu>;
+            key-positions = <39 29>;
+            layers = <4>;
+        };
+
+        cb_os_yo {
+            bindings = <&mc_os_yo>;
+            key-positions = <39 6>;
+            layers = <4>;
+        };
+
+        cb_os_wa {
+            bindings = <&mc_os_wa>;
+            key-positions = <39 31>;
+            layers = <4>;
+        };
+
+        cb_os_wo {
+            bindings = <&mc_os_wo>;
+            key-positions = <11 36>;
+            layers = <4>;
+        };
+
+        cb_os_ri {
+            bindings = <&mc_os_ri>;
+            key-positions = <2 36>;
+            layers = <4>;
+        };
+
+        cb_os_ru {
+            bindings = <&mc_os_ru>;
+            key-positions = <39 8>;
+            layers = <4>;
+        };
+
+        cb_os_re {
+            bindings = <&mc_os_re>;
+            key-positions = <4 36>;
+            layers = <4>;
+        };
+
+        cb_os_ro {
+            bindings = <&mc_os_ro>;
+            key-positions = <24 36>;
+        };
+
+        cb_os_xa {
+            bindings = <&mc_os_xa>;
+            key-positions = <0 36>;
+            layers = <4>;
+        };
+
+        cb_os_xi {
+            bindings = <&mc_os_xi>;
+            key-positions = <36 26>;
+        };
+
+        cb_os_xu {
+            bindings = <&mc_os_xu>;
+            key-positions = <22 36>;
+            layers = <4>;
+        };
+
+        cb_os_xe {
+            bindings = <&mc_os_xe>;
+            key-positions = <10 39>;
+        };
+
+        cb_os_xo {
+            bindings = <&mc_os_xo>;
+            key-positions = <32 39>;
+            layers = <4>;
+        };
+
+        cb_os_xya {
+            bindings = <&mc_os_xya>;
+            key-positions = <3 36>;
+        };
+
+        cb_os_xyu {
+            bindings = <&mc_os_xyu>;
+            key-positions = <14 36>;
+            layers = <4>;
+        };
+
+        cb_os_xyo {
+            bindings = <&mc_os_xyo>;
+            key-positions = <20 39>;
         };
     };
 
@@ -229,6 +355,209 @@
             bindings = <&kp N &kp O>;
             label = "MC_OS_NO";
         };
+
+        mc_os_ha: mc_os_ha {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp A>;
+            label = "MC_OS_HA";
+        };
+
+        mc_os_hi: mc_os_hi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp I>;
+            label = "MC_OS_HI";
+        };
+
+        mc_os_hu: mc_os_hu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp U>;
+            label = "MC_OS_HU";
+        };
+
+        mc_os_he: mc_os_he {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp E>;
+            label = "MC_OS_HE";
+        };
+
+        mc_os_ho: mc_os_ho {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp O>;
+            label = "MC_OS_HO";
+        };
+
+        mc_os_ma: mc_os_ma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp A>;
+            label = "MC_OS_MA";
+        };
+
+        mc_os_mi: mc_os_mi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp I>;
+            label = "MC_OS_MI";
+        };
+
+        mc_os_mu: mc_os_mu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp U>;
+            label = "MC_OS_MU";
+        };
+
+        mc_os_me: mc_os_me {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp E>;
+            label = "MC_OS_ME";
+        };
+
+        mc_os_mo: mc_os_mo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp O>;
+            label = "MC_OS_MO";
+        };
+
+        mc_os_ya: mc_os_ya {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp A>;
+            label = "MC_OS_YA";
+        };
+
+        mc_os_yu: mc_os_yu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp U>;
+            label = "MC_OS_YU";
+        };
+
+        mc_os_yo: mc_os_yo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp O>;
+            label = "MC_OS_YO";
+        };
+
+        mc_os_wa: mc_os_wa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp A>;
+            label = "MC_OS_WA";
+        };
+
+        mc_os_wo: mc_os_wo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp O>;
+            label = "MC_OS_WO";
+        };
+
+        mc_os_nn: mc_os_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp N>;
+            label = "MC_OS_NN";
+        };
+
+        mc_os_ra: mc_os_ra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp A>;
+            label = "MC_OS_RA";
+        };
+
+        mc_os_ri: mc_os_ri {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp I>;
+            label = "MC_OS_RI";
+        };
+
+        mc_os_ru: mc_os_ru {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp U>;
+            label = "MC_OS_RU";
+        };
+
+        mc_os_re: mc_os_re {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp E>;
+            label = "MC_OS_RE";
+        };
+
+        mc_os_ro: mc_os_ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp O>;
+            label = "MC_OS_RO";
+        };
+
+        mc_os_xa: mc_os_xa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp A>;
+            label = "MC_OS_XA";
+        };
+
+        mc_os_xi: mc_os_xi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp I>;
+            label = "MC_OS_XI";
+        };
+
+        mc_os_xu: mc_os_xu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp U>;
+            label = "MC_OS_XU";
+        };
+
+        mc_os_xe: mc_os_xe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp E>;
+            label = "MC_OS_XE";
+        };
+
+        mc_os_xo: mc_os_xo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp O>;
+            label = "MC_OS_XO";
+        };
+
+        mc_os_xya: mc_os_xya {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp Y &kp A>;
+            label = "MC_OS_XYA";
+        };
+
+        mc_os_xyu: mc_os_xyu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp Y &kp U>;
+            label = "MC_OS_XYU";
+        };
+
+        mc_os_xyo: mc_os_xyo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp X &kp Y &kp O>;
+            label = "MC_OS_XYO";
+        };
     };
 
     keymap {
@@ -272,9 +601,9 @@
 
         layer_4 {
             bindings = <
-&kp PERIOD  &mc_os_ka  &mc_os_ta  &mc_os_ko  &mc_os_sa         &kp NUMBER_4  &trans               &mc_os_ti  &mc_os_ku  &mc_os_tu  &trans
-&kp U       &mc_os_si  &mc_os_te  &mc_os_ke  &mc_os_se         &trans        &none                &mc_os_to  &mc_os_ki  &kp I      &trans
-&trans      &trans     &mc_os_su  &trans     &trans            &trans        &trans               &mc_os_so  &mc_os_ne  &trans     &trans
+&kp PERIOD  &mc_os_ka  &mc_os_ta  &mc_os_ko  &mc_os_sa         &kp NUMBER_4  &mc_os_ra            &mc_os_ti  &mc_os_ku  &mc_os_tu  &trans
+&kp U       &mc_os_si  &mc_os_te  &mc_os_ke  &mc_os_se         &trans        &mc_os_ha            &mc_os_to  &mc_os_ki  &kp I      &mc_os_nn
+&trans      &mc_os_hi  &mc_os_su  &mc_os_hu  &mc_os_he         &trans        &mc_os_me            &mc_os_so  &mc_os_ne  &mc_os_ho  &trans
 &trans      &trans     &to 0      &none      &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &none      &none      &trans     &trans
             >;
         };
