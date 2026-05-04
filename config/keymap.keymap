@@ -15,21 +15,6 @@
             key-positions = <18 19>;
         };
 
-        cb-cp {
-            bindings = <&kp LC(C)>;
-            key-positions = <14 13>;
-        };
-
-        cb-ct {
-            bindings = <&kp LC(X)>;
-            key-positions = <12 13>;
-        };
-
-        cb-pst {
-            bindings = <&kp LC(V)>;
-            key-positions = <12 13 14>;
-        };
-
         cb_os_e {
             bindings = <&kp E>;
             key-positions = <1 36>;
@@ -373,6 +358,28 @@
             label = "MYTBMHZH";
             #binding-cells = <0>;
             bindings = <&kp INTERNATIONAL_5>, <&kp GRAVE>;
+        };
+
+        myHome: myHome {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MYHOME";
+            #binding-cells = <0>;
+            bindings =
+                <&kp HOME>,
+                <&kp LC(PAGE_UP)>,
+                <&kp LA(LEFT_ARROW)>,
+                <&kp LC(LS(TAB))>;
+        };
+
+        myEnd: myEnd {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MYEND";
+            #binding-cells = <0>;
+            bindings =
+                <&kp END>,
+                <&kp LC(PAGE_DOWN)>,
+                <&kp LA(RIGHT_ARROW)>,
+                <&kp LC(TAB)>;
         };
     };
 
@@ -915,10 +922,10 @@
 
         layer_0 {
             bindings = <
-&kp Q      &kp W      &kp E  &kp R                     &kp T             &kp NUMBER_0  &kp Y      &kp U                      &kp I      &kp O         &kp P
-&kp A      &kp S      &kp D  &myholdtap1 LEFT_SHIFT F  &kp G             &none         &kp H      &myholdtap1 RIGHT_SHIFT J  &kp K      &kp L         &kp SPACE
-&kp Z      &kp X      &kp C  &kp V                     &kp B             &none         &kp N      &kp M                      &kp COMMA  &kp PERIOD    &kp MINUS
-&lt 4 TAB  &kt LG(L)  &to 1  &lt 3 B                   &kp LEFT_CONTROL                &kp LSHFT  &lt 2 N                    &mo 4      &kp LEFT_GUI  &mt LEFT_ALT ENTER
+&kp Q      &kp W      &kp E  &kp R                     &kp T             &kp NUMBER_0  &kp Y                &kp U                      &kp I      &kp O         &kp P
+&kp A      &kp S      &kp D  &myholdtap1 LEFT_SHIFT F  &kp G             &none         &kp H                &myholdtap1 RIGHT_SHIFT J  &kp K      &kp L         &kp SPACE
+&kp Z      &kp X      &kp C  &kp V                     &kp B             &none         &kp N                &kp M                      &kp COMMA  &kp PERIOD    &kp MINUS
+&lt 4 TAB  &kt LG(L)  &to 1  &lt 3 B                   &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &lt 2 N                    &mo 4      &kp LEFT_GUI  &mt LEFT_ALT ENTER
             >;
         };
 
@@ -933,10 +940,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE  &kp LA(LEFT)  &kp LA(RIGHT_ARROW)                     &kp F4                          &kp F5     &kp NUMBER_1  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &none     &kp LC(O)  &kp LC(P)
-&kp LC(A)   &kp LC(S)     &myholdtap1 LEFT_CONTROL K_APPLICATION  &myholdtap1 LEFT_SHIFT LA(TAB)  &none      &none         &kp LEFT         &kp DOWN           &kp UP    &kp RIGHT  &none
-&kp LC(Z)   &kp LC(X)     &kp LC(C)                               &kp LC(V)                       &none      &none         &none            &kp TAB            &kp HOME  &kp END    &kp ENTER
-&kp TAB     &trans        &none                                   &kp F2                          &myTBMHZH                &none            &none              &none     &trans     &mt RIGHT_ALT ENTER
+&kp ESCAPE  &kp LC(W)  &none                           &kp LC(R)                     &kp F5             &kp NUMBER_1  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(I)  &kp LC(O)  &kp LC(P)
+&kp LC(A)   &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &myholdtap1 LEFT_SHIFT LC(F)  &kp K_APPLICATION  &none         &kp LEFT         &kp DOWN           &kp UP     &kp RIGHT  &none
+&kp LC(Z)   &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)          &none         &kp LC(N)        &kp TAB            &myHome    &myEnd     &kp ENTER
+&kp TAB     &trans     &none                           &kp F2                        &myTBMHZH                        &none            &none              &none      &trans     &mt RIGHT_ALT ENTER
             >;
         };
 
