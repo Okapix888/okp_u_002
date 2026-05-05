@@ -349,32 +349,22 @@
         };
 
         cb_to1 {
-            bindings = <&to 1>;
+            bindings = <&mc_to1>;
             key-positions = <18 19>;
             layers = <0>;
         };
 
         cb_to0 {
-            bindings = <&to 0>;
+            bindings = <&mc_to0>;
             key-positions = <14 13>;
             layers = <1>;
         };
 
-        cb_test {
-            bindings = <&kp LS(T)>;
+        cb_test1 {
+            bindings = <&kp LS(D)>;
             key-positions = <0 1>;
-            timeout-ms = <30>;
-        };
-
-        cb_test2 {
-            bindings = <&kp LS(L)>;
-            key-positions = <11 12>;
-        };
-
-        cb_test3 {
-            bindings = <&kp LS(B)>;
-            key-positions = <22 23>;
-            timeout-ms = <80>;
+            timeout-ms = <10000>;
+            require-prior-idle-ms = <10000>;
         };
     };
 
@@ -977,6 +967,20 @@
             #binding-cells = <0>;
             bindings = <&kp X &kp T &kp U>;
             label = "MC_OS_XTU";
+        };
+
+        mc_to1: mc_to1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INTERNATIONAL_2 &kp GRAVE &to 1>;
+            label = "MC_TO1";
+        };
+
+        mc_to0: mc_to0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INTERNATIONAL_2 &to 0>;
+            label = "MC_TO0";
         };
     };
 
