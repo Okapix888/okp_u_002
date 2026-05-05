@@ -363,12 +363,13 @@
         cb_test {
             bindings = <&kp LS(T)>;
             key-positions = <0 1>;
+            timeout-ms = <50>;
         };
 
         cb_test2 {
             bindings = <&kp LS(L)>;
             key-positions = <11 12>;
-            slow-release;
+            timeout-ms = <200>;
         };
 
         cb_test3 {
@@ -421,7 +422,7 @@
                 <&kp LA(RIGHT_ARROW)>,
                 <&kp LC(TAB)>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
         };
 
         myKakkoHiraku: myKakkoHiraku {
@@ -432,6 +433,8 @@
                 <&kp LS(NUMBER_8)>,
                 <&kp RIGHT_BRACKET>,
                 <&kp LS(RIGHT_BRACKET)>;
+
+            tapping-term-ms = <250>;
         };
 
         myKakkoTojiru: myKakkoTojiru {
@@ -439,6 +442,8 @@
             label = "MYKAKKOTOJIRU";
             #binding-cells = <0>;
             bindings = <&kp LS(N9)>, <&kp BACKSLASH>, <&kp LS(BACKSLASH)>;
+
+            tapping-term-ms = <250>;
         };
     };
 
@@ -983,34 +988,34 @@
             bindings = <
 &kp PERIOD  &mc_os_ka  &mc_os_ta  &mc_os_ko  &mc_os_sa         &kp NUMBER_0  &mc_os_ra  &mc_os_ti  &mc_os_ku  &mc_os_tu     &kp COMMA
 &kp U       &mc_os_si  &mc_os_te  &mc_os_ke  &mc_os_se         &kp C_MUTE    &mc_os_ha  &mc_os_to  &mc_os_ki  &kp I         &mc_os_nn
-&kp PERIOD  &mc_os_hi  &mc_os_su  &mc_os_hu  &mc_os_he         &kp K_MUTE2   &mc_os_me  &mc_os_so  &mc_os_ne  &mc_os_ho     &kp SLASH
+&kp PERIOD  &mc_os_hi  &mc_os_su  &mc_os_hu  &mc_os_he         &kp F4        &mc_os_me  &mc_os_so  &mc_os_ne  &mc_os_ho     &kp SLASH
 &kp TAB     &kp LG(L)  &mo 4      &mo 3      &kp INT_MUHENKAN                &kp SPACE  &mo 2      &mo 1      &kp LEFT_GUI  &myholdtap1 LEFT_ALT ENTER
             >;
         };
 
         layer_0 {
             bindings = <
-&kp Q      &kp W   &kp E                       &kp R                     &kp T             &kp NUMBER_1  &kp Y                &kp U                      &kp I                       &kp O       &kp P
-&kp A      &kp S   &myholdtap1 LEFT_CONTROL D  &myholdtap1 LEFT_SHIFT F  &kp G             &none         &kp H                &myholdtap1 RIGHT_SHIFT J  &myholdtap1 LEFT_CONTROL K  &kp L       &kp SPACE
-&kp Z      &kp X   &kp C                       &kp V                     &kp B             &none         &kp N                &kp M                      &kp COMMA                   &kp PERIOD  &kp MINUS
-&lt 4 TAB  &trans  &mo 4                       &lt 3 B                   &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &lt 2 N                    &none                       &trans      &mt LEFT_ALT ENTER
+&kp Q    &kp W   &kp E                       &kp R                     &kp T             &kp NUMBER_1  &kp Y                &kp U                      &kp I                       &kp O       &kp P
+&kp A    &kp S   &myholdtap1 LEFT_CONTROL D  &myholdtap1 LEFT_SHIFT F  &kp G             &trans        &kp H                &myholdtap1 RIGHT_SHIFT J  &myholdtap1 LEFT_CONTROL K  &kp L       &kp SPACE
+&kp Z    &kp X   &kp C                       &kp V                     &kp B             &trans        &kp N                &kp M                      &kp COMMA                   &kp PERIOD  &kp MINUS
+&kp TAB  &trans  &mo 4                       &lt 3 B                   &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &lt 2 N                    &none                       &trans      &mt LEFT_ALT ENTER
             >;
         };
 
         layer_1 {
             bindings = <
 &kp ESCAPE  &kp LC(W)  &kp LC(E)                       &kp LC(R)                     &kp F5             &kp NUMBER_2  &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
-&kp LC(A)   &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &myholdtap1 LEFT_SHIFT LC(F)  &kp K_APPLICATION  &none         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp LC(SPACE)
-&kp LC(Z)   &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)          &none         &kp LC(N)  &kp TAB    &myHome    &myEnd     &kp LS(SPACE)
-&kp TAB     &trans     &none                           &kp F2                        &myTBMHZH                        &none      &none      &none      &trans     &mt RIGHT_ALT ENTER
+&kp LC(A)   &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &myholdtap1 LEFT_SHIFT LC(F)  &kp K_APPLICATION  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp LC(SPACE)
+&kp LC(Z)   &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)          &trans        &kp LC(N)  &kp TAB    &myHome    &myEnd     &kp LS(SPACE)
+&kp TAB     &trans     &kp LA(TAB)                     &kp F2                        &myTBMHZH                        &none      &none      &none      &trans     &mt RIGHT_ALT ENTER
             >;
         };
 
         layer_2 {
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp RS(NUMBER_3)  &kp LS(NUMBER_4)                     &kp EQUAL         &kp NUMBER_3  &kp LS(SEMICOLON)        &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp LS(INT_YEN)
-&kp SEMICOLON     &myKakkoHiraku    &myKakkoTojiru    &myholdtap1 LEFT_SHIFT SINGLE_QUOTE  &kp LS(NUMBER_5)  &none         &kp MINUS                &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp LS(SINGLE_QUOTE)
-&kp LEFT_BRACKET  &none             &kp LC(NUMBER_1)  &kp LS(INTERNATIONAL_1)              &kp LS(NUMBER_6)  &none         &kp LS(INTERNATIONAL_3)  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp SLASH
+&kp SEMICOLON     &myKakkoHiraku    &myKakkoTojiru    &myholdtap1 LEFT_SHIFT SINGLE_QUOTE  &kp LS(NUMBER_5)  &trans        &kp MINUS                &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp LS(SINGLE_QUOTE)
+&kp LEFT_BRACKET  &none             &kp LC(NUMBER_1)  &kp LS(INTERNATIONAL_1)              &kp LS(NUMBER_6)  &trans        &kp LS(INTERNATIONAL_3)  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp SLASH
 &kp TAB           &none             &none             &none                                &none                           &kp PERIOD               &kp NUMBER_0  &kp LS(MINUS)  &none         &mt RIGHT_ALT ENTER
             >;
         };
@@ -1018,8 +1023,8 @@
         layer_3 {
             bindings = <
 &kp F1           &kp F2          &kp F3     &kp F4     &kp F5           &kp NUMBER_4  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10
-&kp F11          &kp F12         &mkp RCLK  &mkp LCLK  &kp NON_US_HASH  &none         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
-&kp PRINTSCREEN  &none           &none      &none      &none            &none         &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &none
+&kp F11          &kp F12         &mkp RCLK  &mkp LCLK  &kp NON_US_HASH  &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
+&kp PRINTSCREEN  &none           &none      &none      &none            &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &none
 &kp TAB          &kp LEFT_SHIFT  &none      &none      &none                          &none           &none           &none         &none            &mt RIGHT_ALT ENTER
             >;
         };
