@@ -407,6 +407,8 @@
                 <&kp LC(PAGE_UP)>,
                 <&kp LA(LEFT_ARROW)>,
                 <&kp LC(LS(TAB))>;
+
+            tapping-term-ms = <250>;
         };
 
         myEnd: myEnd {
@@ -418,6 +420,8 @@
                 <&kp LC(PAGE_DOWN)>,
                 <&kp LA(RIGHT_ARROW)>,
                 <&kp LC(TAB)>;
+
+            tapping-term-ms = <200>;
         };
 
         myKakkoHiraku: myKakkoHiraku {
