@@ -364,6 +364,18 @@
             bindings = <&kp LS(T)>;
             key-positions = <0 1>;
         };
+
+        cb_test2 {
+            bindings = <&kp LS(L)>;
+            key-positions = <11 12>;
+            slow-release;
+        };
+
+        cb_test3 {
+            bindings = <&kp LS(B)>;
+            key-positions = <22 23>;
+            timeout-ms = <1000>;
+        };
     };
 
     behaviors {
