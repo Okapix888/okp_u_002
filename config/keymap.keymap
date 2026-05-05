@@ -359,13 +359,6 @@
             key-positions = <14 13>;
             layers = <1>;
         };
-
-        cb_test1 {
-            bindings = <&kp LS(D)>;
-            key-positions = <0 1>;
-            timeout-ms = <10000>;
-            require-prior-idle-ms = <10000>;
-        };
     };
 
     behaviors {
