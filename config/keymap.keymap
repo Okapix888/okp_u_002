@@ -2,7 +2,6 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -17,7 +16,7 @@
 
         cb-del {
             bindings = <&kp DEL>;
-            key-positions = <18 19>;
+            key-positions = <30 31>;
         };
 
         cb_os_e {
@@ -342,6 +341,28 @@
             bindings = <&mc_os_xtu>;
             key-positions = <21 39>;
             layers = <0>;
+        };
+
+        cb_ins {
+            bindings = <&kp INS>;
+            key-positions = <9 8>;
+        };
+
+        cb_to1 {
+            bindings = <&to 1>;
+            key-positions = <18 19>;
+            layers = <0>;
+        };
+
+        cb_to0 {
+            bindings = <&to 0>;
+            key-positions = <14 13>;
+            layers = <1>;
+        };
+
+        cb_test {
+            bindings = <&kp LS(T)>;
+            key-positions = <0 1>;
         };
     };
 
@@ -945,9 +966,9 @@
         layer_4 {
             bindings = <
 &kp PERIOD  &mc_os_ka  &mc_os_ta  &mc_os_ko  &mc_os_sa         &kp NUMBER_0  &mc_os_ra  &mc_os_ti  &mc_os_ku  &mc_os_tu     &kp COMMA
-&kp U       &mc_os_si  &mc_os_te  &mc_os_ke  &mc_os_se         &trans        &mc_os_ha  &mc_os_to  &mc_os_ki  &kp I         &mc_os_nn
-&kp PERIOD  &mc_os_hi  &mc_os_su  &mc_os_hu  &mc_os_he         &trans        &mc_os_me  &mc_os_so  &mc_os_ne  &mc_os_ho     &kp SLASH
-&lt 4 TAB   &kp LG(L)  &to 1      &mo 3      &kp INT_MUHENKAN                &kp SPACE  &mo 2      &mo 1      &kp LEFT_GUI  &myholdtap1 LEFT_ALT ENTER
+&kp U       &mc_os_si  &mc_os_te  &mc_os_ke  &mc_os_se         &kp C_MUTE    &mc_os_ha  &mc_os_to  &mc_os_ki  &kp I         &mc_os_nn
+&kp PERIOD  &mc_os_hi  &mc_os_su  &mc_os_hu  &mc_os_he         &kp K_MUTE2   &mc_os_me  &mc_os_so  &mc_os_ne  &mc_os_ho     &kp SLASH
+&kp TAB     &kp LG(L)  &mo 4      &mo 3      &kp INT_MUHENKAN                &kp SPACE  &mo 2      &mo 1      &kp LEFT_GUI  &myholdtap1 LEFT_ALT ENTER
             >;
         };
 
@@ -956,7 +977,7 @@
 &kp Q      &kp W   &kp E                       &kp R                     &kp T             &kp NUMBER_1  &kp Y                &kp U                      &kp I                       &kp O       &kp P
 &kp A      &kp S   &myholdtap1 LEFT_CONTROL D  &myholdtap1 LEFT_SHIFT F  &kp G             &none         &kp H                &myholdtap1 RIGHT_SHIFT J  &myholdtap1 LEFT_CONTROL K  &kp L       &kp SPACE
 &kp Z      &kp X   &kp C                       &kp V                     &kp B             &none         &kp N                &kp M                      &kp COMMA                   &kp PERIOD  &kp MINUS
-&lt 4 TAB  &trans  &to 0                       &lt 3 B                   &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &lt 2 N                    &mo 4                       &trans      &mt LEFT_ALT ENTER
+&lt 4 TAB  &trans  &mo 4                       &lt 3 B                   &kp INT_MUHENKAN                &kp INTERNATIONAL_4  &lt 2 N                    &none                       &trans      &mt LEFT_ALT ENTER
             >;
         };
 
