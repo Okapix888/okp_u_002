@@ -351,13 +351,11 @@
         cb_to1 {
             bindings = <&mc_to1>;
             key-positions = <18 19>;
-            layers = <0 2>;
         };
 
         cb_to0 {
             bindings = <&mc_to0>;
             key-positions = <14 13>;
-            layers = <1 2>;
         };
     };
 
