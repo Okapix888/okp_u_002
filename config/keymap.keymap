@@ -351,13 +351,13 @@
         cb_to1 {
             bindings = <&mc_to1>;
             key-positions = <18 19>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         cb_to0 {
             bindings = <&mc_to0>;
             key-positions = <14 13>;
-            layers = <1>;
+            layers = <1 2>;
         };
     };
 
@@ -1009,19 +1009,19 @@
 
         layer_2 {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp RS(NUMBER_3)  &kp LS(NUMBER_4)                     &kp EQUAL         &kp NUMBER_3  &kp LS(SEMICOLON)        &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp LS(INT_YEN)
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp RS(NUMBER_3)  &kp LS(NUMBER_4)                     &kp EQUAL         &kp NUMBER_3  &kp LS(SEMICOLON)        &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp INT_YEN
 &kp SEMICOLON     &myKakkoHiraku    &myKakkoTojiru    &myholdtap1 LEFT_SHIFT SINGLE_QUOTE  &kp LS(NUMBER_5)  &trans        &kp MINUS                &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp LS(SINGLE_QUOTE)
 &kp LEFT_BRACKET  &none             &kp LC(NUMBER_1)  &kp LS(INTERNATIONAL_1)              &kp LS(NUMBER_6)  &trans        &kp LS(INTERNATIONAL_3)  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp SLASH
-&kp TAB           &none             &none             &none                                &none                           &kp PERIOD               &kp NUMBER_0  &kp LS(MINUS)  &none         &mt RIGHT_ALT ENTER
+&kp TAB           &trans            &none             &none                                &none                           &kp PERIOD               &kp NUMBER_0  &kp LS(MINUS)  &trans        &mt RIGHT_ALT ENTER
             >;
         };
 
         layer_3 {
             bindings = <
-&kp F1           &kp F2               &kp F3          &kp F4          &kp F5           &kp NUMBER_4  &kp F6            &kp F7          &kp F8        &kp F9           &kp F10
-&kp F11          &kp F12              &mkp RCLK       &mkp LCLK       &kp NON_US_HASH  &trans        &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&kp PRINTSCREEN  &kp INTERNATIONAL_2  &kp LANGUAGE_3  &kp LANGUAGE_4  &kp LANGUAGE_5   &trans        &kp LANG_HANGEUL  &kp LANGUAGE_2  &msc SCRL_UP  &msc SCRL_DOWN   &none
-&kp TAB          &kp LEFT_SHIFT       &none           &none           &none                          &none             &none           &none         &none            &mt RIGHT_ALT ENTER
+&kp F1           &kp F2          &kp F3     &kp F4     &kp F5  &kp NUMBER_4  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10
+&kp F11          &kp F12         &mkp RCLK  &mkp LCLK  &none   &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&kp PRINTSCREEN  &none           &none      &none      &none   &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &none
+&kp TAB          &kp LEFT_SHIFT  &none      &none      &none                 &none           &none           &none         &trans           &mt RIGHT_ALT ENTER
             >;
         };
     };
