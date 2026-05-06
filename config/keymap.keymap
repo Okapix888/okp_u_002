@@ -2,7 +2,9 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
 / {
@@ -356,6 +358,26 @@
         cb_to0 {
             bindings = <&mc_to0>;
             key-positions = <14 13>;
+        };
+
+        cb_setBLEpre {
+            bindings = <&bt BT_PRV>;
+            key-positions = <0 9>;
+        };
+
+        cb_setBLEnext {
+            bindings = <&bt BT_NXT>;
+            key-positions = <0 10>;
+        };
+
+        cb_setBLEusb {
+            bindings = <&out OUT_USB>;
+            key-positions = <0 20>;
+        };
+
+        cb_setBLEBLE {
+            bindings = <&out OUT_BLE>;
+            key-positions = <0 21>;
         };
     };
 
@@ -1072,9 +1094,9 @@
         layer_3 {
             bindings = <
 &kp F1           &kp F2          &kp F3            &kp F4          &kp F5  &kp NUMBER_4  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10
-&kp F11          &kp F12         &mkp RCLK         &mkp LCLK       &none   &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
-&kp PRINTSCREEN  &none           &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none   &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &none
-&kp TAB          &kp LEFT_SHIFT  &none             &none           &none                 &none           &none           &none         &trans           &mt RIGHT_ALT ENTER
+&kp F11          &kp F12         &mkp RCLK         &mkp LCLK       &none   &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&kp PRINTSCREEN  &none           &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none   &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &trans
+&kp TAB          &kp LEFT_SHIFT  &none             &none           &none                 &out OUT_USB    &out OUT_BLE    &none         &trans           &mt RIGHT_ALT ENTER
             >;
         };
     };
