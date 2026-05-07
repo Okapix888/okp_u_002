@@ -379,6 +379,11 @@
             bindings = <&out OUT_BLE>;
             key-positions = <0 21>;
         };
+
+        cb_ShiftDel {
+            bindings = <&kp LS(DELETE)>;
+            key-positions = <31 30 29>;
+        };
     };
 
     behaviors {
@@ -1050,6 +1055,13 @@
             bindings = <&kp LANGUAGE_1 &to 0>;
             label = "MC_TO0";
         };
+
+        mc_ShiftSpace: mc_ShiftSpace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LANGUAGE_2 &kp LS(SPACE)>;
+            label = "MC_SHIFTSPACE";
+        };
     };
 
     keymap {
@@ -1077,7 +1089,7 @@
             bindings = <
 &kp ESCAPE  &kp LC(W)  &kp LC(E)                       &kp LC(R)                     &kp F5                              &kp NUMBER_2  &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
 &kp LC(A)   &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &myholdtap1 LEFT_SHIFT LC(F)  &myholdtap1 LEFT_ALT K_APPLICATION  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp LC(SPACE)
-&kp LC(Z)   &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)                           &trans        &kp LC(N)  &kp TAB    &myHome    &myEnd     &kp LS(SPACE)
+&kp LC(Z)   &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)                           &trans        &kp LC(N)  &kp TAB    &myHome    &myEnd     &mc_ShiftSpace
 &kp TAB     &trans     &kp LA(TAB)                     &kp F2                        &myTBMHZH                                         &none      &none      &none      &trans     &mt RIGHT_ALT ENTER
             >;
         };
