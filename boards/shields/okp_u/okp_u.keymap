@@ -6,6 +6,6 @@
 
 #include <input/processors.dtsi>
 
-&trackball_listener {
-    input-processors = <&zip_temp_layer 4 10000>;
-};
+// &trackball_listener {
+//     input-processors = <&zip_temp_layer 4 10000>;
+// };
