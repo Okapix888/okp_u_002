@@ -188,150 +188,175 @@
             bindings = <&mc_os_pa>;
             key-positions = <6 36>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_pi {
             bindings = <&mc_os_pi>;
             key-positions = <10 36>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_pu {
             bindings = <&mc_os_pu>;
             key-positions = <36 28>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_pe {
             bindings = <&mc_os_pe>;
             key-positions = <30 36>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_po {
             bindings = <&mc_os_po>;
             key-positions = <20 36>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_ga {
             bindings = <&mc_os_ga>;
             key-positions = <1 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_gi {
             bindings = <&mc_os_gi>;
             key-positions = <19 36>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_gu {
             bindings = <&mc_os_gu>;
             key-positions = <8 36>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_ge {
             bindings = <&mc_os_ge>;
             key-positions = <14 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_go {
             bindings = <&mc_os_go>;
             key-positions = <3 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_za {
             bindings = <&mc_os_za>;
             key-positions = <39 4>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_zi {
             bindings = <&mc_os_zi>;
             key-positions = <12 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_zu {
             bindings = <&mc_os_zu>;
             key-positions = <24 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_ze {
             bindings = <&mc_os_ze>;
             key-positions = <15 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_zo {
             bindings = <&mc_os_zo>;
             key-positions = <29 36>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_da {
             bindings = <&mc_os_da>;
             key-positions = <2 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_di {
             bindings = <&mc_os_di>;
             key-positions = <36 7>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_du {
             bindings = <&mc_os_du>;
             key-positions = <36 9>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_de {
             bindings = <&mc_os_de>;
             key-positions = <13 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_do {
             bindings = <&mc_os_do>;
             key-positions = <18 36>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_ba {
             bindings = <&mc_os_ba>;
             key-positions = <36 17>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_bi {
             bindings = <&mc_os_bi>;
             key-positions = <23 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_bu {
             bindings = <&mc_os_bu>;
             key-positions = <25 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_be {
             bindings = <&mc_os_be>;
             key-positions = <26 39>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_bo {
             bindings = <&mc_os_bo>;
             key-positions = <31 36>;
             layers = <0>;
+            timeout-ms = <80>;
         };
 
         cb_os_chouon {
@@ -416,7 +441,7 @@
                 <&kp LA(LEFT_ARROW)>,
                 <&kp LC(LS(TAB))>;
 
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
         };
 
         myEnd: myEnd {
@@ -429,7 +454,7 @@
                 <&kp LA(RIGHT_ARROW)>,
                 <&kp LC(TAB)>;
 
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
         };
 
         myKakkoHiraku: myKakkoHiraku {
@@ -441,7 +466,7 @@
                 <&kp RIGHT_BRACKET>,
                 <&kp LS(RIGHT_BRACKET)>;
 
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
         };
 
         myKakkoTojiru: myKakkoTojiru {
@@ -450,7 +475,7 @@
             #binding-cells = <0>;
             bindings = <&kp LS(N9)>, <&kp BACKSLASH>, <&kp LS(BACKSLASH)>;
 
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
         };
 
         myShiftKe: myShiftKe {
@@ -1072,7 +1097,7 @@
 &kp PERIOD  &mc_os_ka  &mc_os_ta                    &mc_os_ko                &mc_os_sa            &kp NUMBER_0  &mc_os_ra            &mc_os_ti                &mc_os_ku                    &mc_os_tu     &kp COMMA
 &kp U       &mc_os_si  &myControlTe LEFT_CONTROL 0  &myShiftKe LEFT_SHIFT 0  &myAltSe LEFT_ALT 0  &kp C_MUTE    &mc_os_ha            &myShiftTo LEFT_SHIFT 0  &myControlKi LEFT_CONTROL 0  &kp I         &mc_os_nn
 &kp PERIOD  &mc_os_hi  &mc_os_su                    &mc_os_hu                &mc_os_he            &kp F4        &mc_os_me            &mc_os_so                &mc_os_ne                    &mc_os_ho     &kp SLASH
-&lt 4 TAB   &kp LG(L)  &mo 4                        &mo 3                    &kp INT_MUHENKAN                   &kp INTERNATIONAL_4  &lt 2 SPACE              &mo 1                        &kp LEFT_GUI  &myholdtap1 LEFT_ALT ENTER
+&lt 4 TAB   &kp LG(L)  &mo 4                        &mo 3                    &kp INT_MUHENKAN                   &kp INTERNATIONAL_4  &lt 2 SPACE              &mo 4                        &kp LEFT_GUI  &myholdtap1 LEFT_ALT ENTER
             >;
         };
 
@@ -1081,7 +1106,7 @@
 &kp Q   &kp W   &kp E                       &kp R                     &kp T                   &kp NUMBER_1  &kp Y                &kp U                      &kp I                       &kp O       &kp P
 &kp A   &kp S   &myholdtap1 LEFT_CONTROL D  &myholdtap1 LEFT_SHIFT F  &myholdtap1 LEFT_ALT G  &trans        &kp H                &myholdtap1 RIGHT_SHIFT J  &myholdtap1 LEFT_CONTROL K  &kp L       &kp SPACE
 &kp Z   &kp X   &kp C                       &kp V                     &kp B                   &trans        &kp N                &kp M                      &kp COMMA                   &kp PERIOD  &kp MINUS
-&trans  &trans  &mo 4                       &lt 3 B                   &kp INT_MUHENKAN                      &kp INTERNATIONAL_4  &lt 2 N                    &none                       &trans      &mt LEFT_ALT ENTER
+&trans  &trans  &mo 4                       &lt 3 B                   &kp INT_MUHENKAN                      &kp INTERNATIONAL_4  &lt 2 N                    &mo 4                       &trans      &mt LEFT_ALT ENTER
             >;
         };
 
