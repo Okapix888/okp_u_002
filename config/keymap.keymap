@@ -385,19 +385,19 @@
             key-positions = <14 13>;
         };
 
-        cb_setBLEpre {
-            bindings = <&bt BT_PRV>;
-            key-positions = <0 9>;
+        cb_setBLE0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <0 6>;
         };
 
-        cb_setBLEnext {
-            bindings = <&bt BT_NXT>;
-            key-positions = <0 10>;
+        cb_setBLE1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <0 7>;
         };
 
-        cb_setBLEusb {
+        cb_setBLEUSB {
             bindings = <&out OUT_USB>;
-            key-positions = <0 20>;
+            key-positions = <0 8>;
         };
 
         cb_setBLEBLE {
@@ -408,6 +408,26 @@
         cb_ShiftDel {
             bindings = <&kp LS(DELETE)>;
             key-positions = <31 30 29>;
+        };
+
+        cb_setBLE2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <0 8>;
+        };
+
+        cb_setBLE3 {
+            bindings = <&bt BT_SEL 3>;
+            key-positions = <0 9>;
+        };
+
+        cb_setBLE4 {
+            bindings = <&bt BT_SEL 4>;
+            key-positions = <0 10>;
+        };
+
+        cb_clearBLE {
+            bindings = <&bt BT_CLR>;
+            key-positions = <0 17>;
         };
     };
 
