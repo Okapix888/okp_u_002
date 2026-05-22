@@ -460,11 +460,6 @@
             key-positions = <0 17>;
         };
 
-        cb_space {
-            bindings = <&kp SPACE>;
-            key-positions = <29 30>;
-        };
-
         cb_to1n {
             bindings = <&mo 1>;
             key-positions = <7 8>;
@@ -1191,17 +1186,17 @@
         cursor+control {
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(W)  &kp LC(E)                       &kp LC(R)                     &kp LC(T)                           &kp NUMBER_2  &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
-&kp LC(A)         &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &myholdtap1 LEFT_SHIFT LC(F)  &myholdtap1 LEFT_ALT K_APPLICATION  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp LC(SPACE)
-&kp LC(Z)         &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)                           &trans        &kp LC(N)  &kp TAB    &myHome    &myEnd     &mc_ShiftSpace
+&kp LC(A)         &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &myholdtap1 LEFT_SHIFT LC(F)  &myholdtap1 LEFT_ALT K_APPLICATION  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &mc_ShiftSpace
+&kp LC(Z)         &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)                           &trans        &kp LC(N)  &none      &myHome    &myEnd     &kp LS(SLASH)
 &trans            &trans     &kp LA(TAB)                     &kp F2                        &myTBMHZH                                         &none      &none      &none      &trans     &mt RIGHT_ALT ENTER
             >;
         };
 
         number {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp RS(NUMBER_3)  &kp LS(NUMBER_4)                     &kp EQUAL         &kp NUMBER_3  &kp LS(SEMICOLON)        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp INT_YEN
+&kp LC(NUMBER_1)  &kp LS(NUMBER_2)  &kp RS(NUMBER_3)  &kp LS(NUMBER_4)                     &kp EQUAL         &kp NUMBER_3  &kp LS(SEMICOLON)        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp INT_YEN
 &kp SEMICOLON     &myKakkoHiraku    &myKakkoTojiru    &myholdtap1 LEFT_SHIFT SINGLE_QUOTE  &kp LS(NUMBER_5)  &trans        &kp MINUS                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SINGLE_QUOTE)
-&kp LEFT_BRACKET  &kp LS(NUMBER_7)  &kp LC(NUMBER_1)  &kp LS(INTERNATIONAL_1)              &kp LS(NUMBER_6)  &trans        &kp LS(INTERNATIONAL_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&kp LEFT_BRACKET  &kp LS(NUMBER_7)  &kp LS(NUMBER_1)  &kp LS(INTERNATIONAL_1)              &kp LS(NUMBER_6)  &trans        &kp LS(INTERNATIONAL_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
 &trans            &trans            &none             &none                                &none                           &kp LS(MINUS)            &kp NUMBER_0  &kp PERIOD    &trans        &mt RIGHT_ALT ENTER
             >;
         };
