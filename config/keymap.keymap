@@ -482,6 +482,11 @@
             bindings = <&tog 5>;
             key-positions = <15 17>;
         };
+
+        cb_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <29 30>;
+        };
     };
 
     behaviors {
