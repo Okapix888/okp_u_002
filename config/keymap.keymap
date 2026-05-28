@@ -639,6 +639,8 @@
             #binding-cells = <0>;
             bindings = <&kp K &kp E>;
             label = "MC_OS_KE";
+            wait-ms = <100>;
+            tap-ms = <100>;
         };
 
         mc_os_ko: mc_os_ko {
@@ -646,6 +648,8 @@
             #binding-cells = <0>;
             bindings = <&kp K &kp O>;
             label = "MC_OS_KO";
+            wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_sa: mc_os_sa {
