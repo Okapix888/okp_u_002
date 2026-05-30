@@ -646,6 +646,7 @@
             bindings = <&kp K &kp A>;
             label = "MC_OS_KA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ki: mc_os_ki {
@@ -654,6 +655,7 @@
             bindings = <&kp K &kp I>;
             label = "MC_OS_KI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ku: mc_os_ku {
@@ -662,6 +664,7 @@
             bindings = <&kp K &kp U>;
             label = "MC_OS_KU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ke: mc_os_ke {
@@ -670,6 +673,7 @@
             bindings = <&kp K &kp E>;
             label = "MC_OS_KE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ko: mc_os_ko {
@@ -687,6 +691,7 @@
             bindings = <&kp S &kp A>;
             label = "MC_OS_SA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_si: mc_os_si {
@@ -695,6 +700,7 @@
             bindings = <&kp S &kp I>;
             label = "MC_OS_SI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_su: mc_os_su {
@@ -703,6 +709,7 @@
             bindings = <&kp S &kp U>;
             label = "MC_OS_SU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_se: mc_os_se {
@@ -711,6 +718,7 @@
             bindings = <&kp S &kp E>;
             label = "MC_OS_SE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_so: mc_os_so {
@@ -719,6 +727,7 @@
             bindings = <&kp S &kp O>;
             label = "MC_OS_SO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ta: mc_os_ta {
@@ -727,6 +736,7 @@
             bindings = <&kp T &kp A>;
             label = "MC_OS_TA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ti: mc_os_ti {
@@ -735,6 +745,7 @@
             bindings = <&kp T &kp I>;
             label = "MC_OS_TI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_tu: mc_os_tu {
@@ -743,6 +754,7 @@
             bindings = <&kp T &kp U>;
             label = "MC_OS_TU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_te: mc_os_te {
@@ -751,6 +763,7 @@
             bindings = <&kp T &kp E>;
             label = "MC_OS_TE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_to: mc_os_to {
@@ -759,6 +772,7 @@
             bindings = <&kp T &kp O>;
             label = "MC_OS_TO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_na: mc_os_na {
@@ -767,6 +781,7 @@
             bindings = <&kp N &kp A>;
             label = "MC_OS_NA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ni: mc_os_ni {
@@ -775,6 +790,7 @@
             bindings = <&kp N &kp I>;
             label = "MC_OS_NI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_nu: mc_os_nu {
@@ -783,6 +799,7 @@
             bindings = <&kp N &kp U>;
             label = "MC_OS_NU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ne: mc_os_ne {
@@ -791,6 +808,7 @@
             bindings = <&kp N &kp E>;
             label = "MC_OS_NE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_no: mc_os_no {
@@ -799,6 +817,7 @@
             bindings = <&kp N &kp O>;
             label = "MC_OS_NO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ha: mc_os_ha {
@@ -807,6 +826,7 @@
             bindings = <&kp H &kp A>;
             label = "MC_OS_HA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_hi: mc_os_hi {
@@ -815,6 +835,7 @@
             bindings = <&kp H &kp I>;
             label = "MC_OS_HI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_hu: mc_os_hu {
@@ -823,6 +844,7 @@
             bindings = <&kp H &kp U>;
             label = "MC_OS_HU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_he: mc_os_he {
@@ -831,6 +853,7 @@
             bindings = <&kp H &kp E>;
             label = "MC_OS_HE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ho: mc_os_ho {
@@ -839,6 +862,7 @@
             bindings = <&kp H &kp O>;
             label = "MC_OS_HO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ma: mc_os_ma {
@@ -847,6 +871,7 @@
             bindings = <&kp M &kp A>;
             label = "MC_OS_MA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_mi: mc_os_mi {
@@ -855,6 +880,7 @@
             bindings = <&kp M &kp I>;
             label = "MC_OS_MI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_mu: mc_os_mu {
@@ -863,6 +889,7 @@
             bindings = <&kp M &kp U>;
             label = "MC_OS_MU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_me: mc_os_me {
@@ -871,6 +898,7 @@
             bindings = <&kp M &kp E>;
             label = "MC_OS_ME";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_mo: mc_os_mo {
@@ -879,6 +907,7 @@
             bindings = <&kp M &kp O>;
             label = "MC_OS_MO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ya: mc_os_ya {
@@ -887,6 +916,7 @@
             bindings = <&kp Y &kp A>;
             label = "MC_OS_YA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_yu: mc_os_yu {
@@ -895,6 +925,7 @@
             bindings = <&kp Y &kp U>;
             label = "MC_OS_YU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_yo: mc_os_yo {
@@ -903,6 +934,7 @@
             bindings = <&kp Y &kp O>;
             label = "MC_OS_YO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_wa: mc_os_wa {
@@ -911,6 +943,7 @@
             bindings = <&kp W &kp A>;
             label = "MC_OS_WA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_wo: mc_os_wo {
@@ -919,6 +952,7 @@
             bindings = <&kp W &kp O>;
             label = "MC_OS_WO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_nn: mc_os_nn {
@@ -927,6 +961,7 @@
             bindings = <&kp N &kp N>;
             label = "MC_OS_NN";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ra: mc_os_ra {
@@ -935,6 +970,7 @@
             bindings = <&kp R &kp A>;
             label = "MC_OS_RA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ri: mc_os_ri {
@@ -943,6 +979,7 @@
             bindings = <&kp R &kp I>;
             label = "MC_OS_RI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ru: mc_os_ru {
@@ -951,6 +988,7 @@
             bindings = <&kp R &kp U>;
             label = "MC_OS_RU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_re: mc_os_re {
@@ -959,6 +997,7 @@
             bindings = <&kp R &kp E>;
             label = "MC_OS_RE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ro: mc_os_ro {
@@ -967,6 +1006,7 @@
             bindings = <&kp R &kp O>;
             label = "MC_OS_RO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_xa: mc_os_xa {
@@ -975,6 +1015,7 @@
             bindings = <&kp X &kp A>;
             label = "MC_OS_XA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_xi: mc_os_xi {
@@ -983,6 +1024,7 @@
             bindings = <&kp X &kp I>;
             label = "MC_OS_XI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_xu: mc_os_xu {
@@ -991,6 +1033,7 @@
             bindings = <&kp X &kp U>;
             label = "MC_OS_XU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_xe: mc_os_xe {
@@ -999,6 +1042,7 @@
             bindings = <&kp X &kp E>;
             label = "MC_OS_XE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_xo: mc_os_xo {
@@ -1007,6 +1051,7 @@
             bindings = <&kp X &kp O>;
             label = "MC_OS_XO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_xya: mc_os_xya {
@@ -1015,6 +1060,7 @@
             bindings = <&kp X &kp Y &kp A>;
             label = "MC_OS_XYA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_xyu: mc_os_xyu {
@@ -1023,6 +1069,7 @@
             bindings = <&kp X &kp Y &kp U>;
             label = "MC_OS_XYU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_xyo: mc_os_xyo {
@@ -1031,6 +1078,7 @@
             bindings = <&kp X &kp Y &kp O>;
             label = "MC_OS_XYO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_pa: mc_os_pa {
@@ -1039,6 +1087,7 @@
             bindings = <&kp P &kp A>;
             label = "MC_OS_PA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_pi: mc_os_pi {
@@ -1047,6 +1096,7 @@
             bindings = <&kp P &kp I>;
             label = "MC_OS_PI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_pu: mc_os_pu {
@@ -1055,6 +1105,7 @@
             bindings = <&kp P &kp U>;
             label = "MC_OS_PU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_pe: mc_os_pe {
@@ -1063,6 +1114,7 @@
             bindings = <&kp P &kp E>;
             label = "MC_OS_PE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_po: mc_os_po {
@@ -1071,6 +1123,7 @@
             bindings = <&kp P &kp O>;
             label = "MC_OS_PO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ga: mc_os_ga {
@@ -1079,6 +1132,7 @@
             bindings = <&kp G &kp A>;
             label = "MC_OS_GA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_gi: mc_os_gi {
@@ -1087,6 +1141,7 @@
             bindings = <&kp G &kp I>;
             label = "MC_OS_GI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_gu: mc_os_gu {
@@ -1095,6 +1150,7 @@
             bindings = <&kp G &kp U>;
             label = "MC_OS_GU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ge: mc_os_ge {
@@ -1103,6 +1159,7 @@
             bindings = <&kp G &kp E>;
             label = "MC_OS_GE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_go: mc_os_go {
@@ -1111,6 +1168,7 @@
             bindings = <&kp G &kp O>;
             label = "MC_OS_GO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_za: mc_os_za {
@@ -1119,6 +1177,7 @@
             bindings = <&kp Z &kp A>;
             label = "MC_OS_ZA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_zi: mc_os_zi {
@@ -1127,6 +1186,7 @@
             bindings = <&kp Z &kp I>;
             label = "MC_OS_ZI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_zu: mc_os_zu {
@@ -1135,6 +1195,7 @@
             bindings = <&kp Z &kp U>;
             label = "MC_OS_ZU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ze: mc_os_ze {
@@ -1143,6 +1204,7 @@
             bindings = <&kp Z &kp E>;
             label = "MC_OS_ZE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_zo: mc_os_zo {
@@ -1151,6 +1213,7 @@
             bindings = <&kp Z &kp O>;
             label = "MC_OS_ZO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_da: mc_os_da {
@@ -1159,6 +1222,7 @@
             bindings = <&kp D &kp A>;
             label = "MC_OS_DA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_di: mc_os_di {
@@ -1167,6 +1231,7 @@
             bindings = <&kp D &kp I>;
             label = "MC_OS_DI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_du: mc_os_du {
@@ -1175,6 +1240,7 @@
             bindings = <&kp D &kp U>;
             label = "MC_OS_DU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_de: mc_os_de {
@@ -1183,6 +1249,7 @@
             bindings = <&kp D &kp E>;
             label = "MC_OS_DE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_do: mc_os_do {
@@ -1191,6 +1258,7 @@
             bindings = <&kp D &kp O>;
             label = "MC_OS_DO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_ba: mc_os_ba {
@@ -1199,6 +1267,7 @@
             bindings = <&kp B &kp A>;
             label = "MC_OS_BA";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_bi: mc_os_bi {
@@ -1207,6 +1276,7 @@
             bindings = <&kp B &kp I>;
             label = "MC_OS_BI";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_bu: mc_os_bu {
@@ -1215,6 +1285,7 @@
             bindings = <&kp B &kp U>;
             label = "MC_OS_BU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_be: mc_os_be {
@@ -1223,6 +1294,7 @@
             bindings = <&kp B &kp E>;
             label = "MC_OS_BE";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_os_bo: mc_os_bo {
@@ -1231,6 +1303,7 @@
             bindings = <&kp B &kp O>;
             label = "MC_OS_BO";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         cb_os_on: cb_os_on {
@@ -1246,6 +1319,7 @@
             bindings = <&kp X &kp T &kp U>;
             label = "MC_OS_XTU";
             wait-ms = <0>;
+            tap-ms = <0>;
         };
 
         mc_to1: mc_to1 {
