@@ -1369,7 +1369,7 @@
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(W)  &kp LC(E)                       &kp LC(R)                     &kp LC(T)                           &kp NUMBER_2  &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
 &kp LC(A)         &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &myholdtap1 LEFT_SHIFT LC(F)  &myholdtap1 LEFT_ALT K_APPLICATION  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &mc_ShiftSpace
-&kp LC(Z)         &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)                           &trans        &kp LC(N)  &none      &myHome    &myEnd     &kp LC(SPACE)
+&kp LC(Z)         &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)                           &trans        &kp LC(N)  &kp LC(M)  &myHome    &myEnd     &kp LC(SPACE)
 &trans            &trans     &kp LA(TAB)                     &kp F2                        &myTBMHZH                                         &none      &none      &none      &trans     &mt RIGHT_ALT ENTER
             >;
         };
