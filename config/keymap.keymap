@@ -417,22 +417,22 @@
 
         cb_setBLE0 {
             bindings = <&bt BT_SEL 0>;
-            key-positions = <0 6>;
+            key-positions = <6 5>;
         };
 
         cb_setBLE1 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <0 7>;
+            key-positions = <7 5>;
         };
 
         cb_setBLEUSB {
             bindings = <&out OUT_USB>;
-            key-positions = <0 20>;
+            key-positions = <20 5>;
         };
 
         cb_setBLEBLE {
             bindings = <&out OUT_BLE>;
-            key-positions = <0 21>;
+            key-positions = <21 5>;
         };
 
         cb_ShiftDel {
@@ -442,22 +442,22 @@
 
         cb_setBLE2 {
             bindings = <&bt BT_SEL 2>;
-            key-positions = <0 8>;
+            key-positions = <8 5>;
         };
 
         cb_setBLE3 {
             bindings = <&bt BT_SEL 3>;
-            key-positions = <0 9>;
+            key-positions = <9 5>;
         };
 
         cb_setBLE4 {
             bindings = <&bt BT_SEL 4>;
-            key-positions = <0 10>;
+            key-positions = <10 5>;
         };
 
         cb_clearBLE {
             bindings = <&bt BT_CLR>;
-            key-positions = <0 17>;
+            key-positions = <17 5>;
         };
 
         cb_to1n {
@@ -1387,7 +1387,7 @@
             bindings = <
 &kp F1           &kp F2          &kp F3            &kp F4          &kp F5  &kp NUMBER_4  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10
 &kp F11          &kp F12         &mkp RCLK         &mkp LCLK       &none   &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp LCLK
-&kp PRINTSCREEN  &none           &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none   &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &mkp RCLK
+&kp PRINTSCREEN  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none   &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &mkp RCLK
 &none            &kp LEFT_SHIFT  &none             &none           &none                 &none           &none           &none         &trans           &mt RIGHT_ALT ENTER
             >;
         };
