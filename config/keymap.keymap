@@ -475,7 +475,7 @@
         cb_esc {
             bindings = <&kp ESCAPE>;
             key-positions = <12 13>;
-            timeout-ms = <100>;
+            timeout-ms = <80>;
         };
 
         cb_toggle_to5 {
@@ -1361,7 +1361,7 @@
 &kp Q   &kp W                   &kp E                       &kp R                     &kp T                   &kp NUMBER_1  &kp Y      &kp U                      &kp I                       &kp O       &kp P
 &kp A   &myholdtap1 LEFT_ALT S  &myholdtap1 LEFT_CONTROL D  &myholdtap1 LEFT_SHIFT F  &myholdtap1 LEFT_ALT G  &trans        &kp H      &myholdtap1 RIGHT_SHIFT J  &myholdtap1 LEFT_CONTROL K  &kp L       &kp MINUS
 &kp Z   &kp X                   &kp C                       &kp V                     &kp B                   &trans        &kp N      &kp M                      &kp COMMA                   &kp PERIOD  &kp QUESTION
-&trans  &trans                  &mo 4                       &lt 3 B                   &kp GRAVE                             &kp SPACE  &lt 2 N                    &none                       &trans      &mt LEFT_ALT ENTER
+&trans  &trans                  &mo 3                       &lt 4 B                   &kp GRAVE                             &kp SPACE  &lt 2 N                    &none                       &trans      &mt LEFT_ALT ENTER
             >;
         };
 
@@ -1385,10 +1385,10 @@
 
         mouse {
             bindings = <
-&kp F1           &kp F2          &kp F3            &kp F4          &kp F5  &kp NUMBER_4  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10
-&kp F11          &kp F12         &mkp RCLK         &mkp LCLK       &none   &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp LCLK
-&kp PRINTSCREEN  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none   &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &mkp RCLK
-&none            &kp LEFT_SHIFT  &none             &none           &none                 &none           &none           &none         &trans           &mt RIGHT_ALT ENTER
+&kp F1           &kp F2          &kp F3            &kp F4          &kp F5                      &kp NUMBER_4  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10
+&kp F11          &kp F12         &mkp RCLK         &mkp LCLK       &myholdtap1 LEFT_ALT K_APP  &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp LCLK
+&kp PRINTSCREEN  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none                       &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &mkp RCLK
+&none            &kp LEFT_SHIFT  &none             &none           &none                                     &none           &none           &none         &trans           &mt RIGHT_ALT ENTER
             >;
         };
 
