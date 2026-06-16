@@ -1333,7 +1333,7 @@
         mc_to0: mc_to0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &to 0>;
+            bindings = <&kp LANGUAGE_2 &kp GRAVE &to 0>;
             label = "MC_TO0";
         };
 
