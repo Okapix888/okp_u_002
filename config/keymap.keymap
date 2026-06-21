@@ -653,7 +653,7 @@
             tapping-term-ms = <200>;
             flavor = "balanced";
             require-prior-idle-ms = <128>;
-            bindings = <&lt>, <&test_tap>;
+            bindings = <&mo>, <&test_tap>;
         };
     };
 
