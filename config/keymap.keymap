@@ -462,18 +462,6 @@
             key-positions = <17 5>;
         };
 
-        cb_to1n {
-            bindings = <&mo 1>;
-            key-positions = <7 8>;
-            layers = <0>;
-        };
-
-        cb_to0n {
-            bindings = <&mo 0>;
-            key-positions = <2 3>;
-            layers = <1>;
-        };
-
         cb_esc {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
@@ -493,6 +481,33 @@
         cb_tab {
             bindings = <&kp TAB>;
             key-positions = <36 39>;
+        };
+
+        cb_os_nu2 {
+            bindings = <&mc_os_nu>;
+            key-positions = <39 18 19>;
+            timeout-ms = <80>;
+            layers = <0>;
+        };
+
+        cb_os_xi2 {
+            bindings = <&mc_os_xi>;
+            key-positions = <36 14 13>;
+            timeout-ms = <80>;
+        };
+
+        cb_os_pu2 {
+            bindings = <&mc_os_pu>;
+            key-positions = <36 18 19>;
+            timeout-ms = <80>;
+            layers = <0>;
+        };
+
+        cb_os_be2 {
+            bindings = <&mc_os_be>;
+            key-positions = <39 14 13>;
+            timeout-ms = <80>;
+            layers = <0>;
         };
     };
 
