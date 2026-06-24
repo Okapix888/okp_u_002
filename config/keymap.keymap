@@ -509,6 +509,16 @@
             timeout-ms = <80>;
             layers = <0>;
         };
+
+        cb_os_he {
+            bindings = <&mc_os_he>;
+            key-positions = <14 13>;
+        };
+
+        cb_os_me {
+            bindings = <&mc_os_me>;
+            key-positions = <18 19>;
+        };
     };
 
     behaviors {
