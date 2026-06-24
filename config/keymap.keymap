@@ -409,12 +409,12 @@
 
         cb_to1 {
             bindings = <&mc_to1>;
-            key-positions = <18 19>;
+            key-positions = <19 13>;
         };
 
         cb_to0 {
             bindings = <&mc_to0>;
-            key-positions = <14 13>;
+            key-positions = <14 18>;
         };
 
         cb_setBLE0 {
@@ -476,7 +476,7 @@
 
         cb_esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <12 13>;
+            key-positions = <1 2>;
             timeout-ms = <60>;
         };
 
@@ -643,6 +643,17 @@
             flavor = "balanced";
             require-prior-idle-ms = <128>;
             bindings = <&mo>, <&test_tap>;
+        };
+
+        myholdtap_lowspeed: myholdtap_lowspeed {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MYHOLDTAP_LOWSPEED";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <250>;
+            flavor = "balanced";
+            require-prior-idle-ms = <128>;
         };
     };
 
@@ -1359,7 +1370,7 @@
 &kp PERIOD  &mc_os_ka            &mc_os_ta                    &mc_os_ko                &mc_os_sa         &test_holdtap 1 0  &mc_os_ra  &mc_os_ti                &mc_os_ku                    &mc_os_tu     &kp COMMA
 &kp U       &myAltSi LEFT_ALT 0  &myControlTe LEFT_CONTROL 0  &myShiftKe LEFT_SHIFT 0  &mc_os_se         &kp C_MUTE         &mc_os_ha  &myShiftTo LEFT_SHIFT 0  &myControlKi LEFT_CONTROL 0  &kp I         &mc_os_nn
 &kp PERIOD  &mc_os_hi            &mc_os_su                    &mc_os_hu                &mc_os_he         &kp F4             &mc_os_me  &mc_os_so                &mc_os_ne                    &mc_os_ho     &kp SLASH
-&lt 4 TAB   &kp LG(L)            &mo 3                        &mo 4                    &kp INT_MUHENKAN                     &kp SPACE  &mo 2                    &mo 1                        &kp LEFT_GUI  &myholdtap1 LEFT_ALT ENTER
+&lt 4 TAB   &kp LG(L)            &mo 3                        &mo 4                    &kp INT_MUHENKAN                     &kp SPACE  &mo 2                    &mo 1                        &kp LEFT_GUI  &myholdtap_lowspeed LEFT_ALT ENTER
             >;
         };
 
