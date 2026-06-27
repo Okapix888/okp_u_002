@@ -492,32 +492,32 @@
 
         cb_os_xi2 {
             bindings = <&mc_os_xi>;
-            key-positions = <36 14 13>;
+            key-positions = <36 24 25>;
             timeout-ms = <80>;
         };
 
         cb_os_pu2 {
             bindings = <&mc_os_pu>;
-            key-positions = <36 18 19>;
+            key-positions = <36 29 30>;
             timeout-ms = <80>;
             layers = <0>;
         };
 
         cb_os_be2 {
             bindings = <&mc_os_be>;
-            key-positions = <39 14 13>;
+            key-positions = <39 24 25>;
             timeout-ms = <80>;
             layers = <0>;
         };
 
         cb_os_he {
             bindings = <&mc_os_he>;
-            key-positions = <14 13>;
+            key-positions = <24 25>;
         };
 
         cb_os_me {
             bindings = <&mc_os_me>;
-            key-positions = <18 19>;
+            key-positions = <29 30>;
         };
     };
 
