@@ -15,12 +15,12 @@
 
         cb-bks {
             bindings = <&kp BACKSPACE>;
-            key-positions = <7 8>;
+            key-positions = <12 13>;
         };
 
         cb-del {
             bindings = <&kp DEL>;
-            key-positions = <30 29>;
+            key-positions = <24 23>;
         };
 
         cb_os_e {
@@ -404,7 +404,7 @@
 
         cb_ins {
             bindings = <&kp INS>;
-            key-positions = <2 3>;
+            key-positions = <2 1 2>;
         };
 
         cb_to1 {
