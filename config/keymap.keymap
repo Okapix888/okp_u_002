@@ -20,7 +20,7 @@
 
         cb-del {
             bindings = <&kp DEL>;
-            key-positions = <30 29>;
+            key-positions = <30 31>;
         };
 
         cb_os_e {
