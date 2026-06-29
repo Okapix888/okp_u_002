@@ -15,12 +15,12 @@
 
         cb-bks {
             bindings = <&kp BACKSPACE>;
-            key-positions = <12 13>;
+            key-positions = <19 20>;
         };
 
         cb-del {
             bindings = <&kp DEL>;
-            key-positions = <24 23>;
+            key-positions = <30 29>;
         };
 
         cb_os_e {
@@ -404,12 +404,12 @@
 
         cb_ins {
             bindings = <&kp INS>;
-            key-positions = <2 1 2>;
+            key-positions = <8 9>;
         };
 
         cb_to1 {
             bindings = <&mc_to1>;
-            key-positions = <24 25>;
+            key-positions = <18 19>;
         };
 
         cb_to0 {
@@ -518,26 +518,6 @@
         cb_os_me {
             bindings = <&mc_os_me>;
             key-positions = <29 30>;
-        };
-
-        cb_left {
-            bindings = <&kp LEFT>;
-            key-positions = <18 19>;
-        };
-
-        cb_right {
-            bindings = <&kp RIGHT>;
-            key-positions = <19 20>;
-        };
-
-        cb_up {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <8 9>;
-        };
-
-        cb_down {
-            bindings = <&kp DOWN>;
-            key-positions = <30 31>;
         };
 
         cb_space {
