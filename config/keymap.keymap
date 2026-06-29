@@ -685,6 +685,15 @@
             flavor = "balanced";
             require-prior-idle-ms = <128>;
         };
+
+        my_mc_nn: my_mc_nn {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MY_MC_NN";
+            bindings = <&kp>, <&mc_os_nn>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <120>;
+        };
     };
 
     macros {
@@ -1398,8 +1407,8 @@
         SumShift {
             bindings = <
 &kp PERIOD  &mc_os_ka            &mc_os_ta                    &mc_os_ko                &mc_os_sa         &test_holdtap 1 0  &mc_os_ra  &mc_os_ti                &mc_os_ku                    &mc_os_tu     &kp COMMA
-&kp U       &myAltSi LEFT_ALT 0  &myControlTe LEFT_CONTROL 0  &myShiftKe LEFT_SHIFT 0  &mc_os_se         &kp C_MUTE         &mc_os_ha  &myShiftTo LEFT_SHIFT 0  &myControlKi LEFT_CONTROL 0  &kp I         &mc_os_nn
-&kp PERIOD  &mc_os_hi            &mc_os_su                    &mc_os_hu                &mc_os_he         &kp F4             &mc_os_me  &mc_os_so                &mc_os_ne                    &mc_os_ho     &kp SLASH
+&kp U       &myAltSi LEFT_ALT 0  &myControlTe LEFT_CONTROL 0  &myShiftKe LEFT_SHIFT 0  &mc_os_se         &kp C_MUTE         &mc_os_ha  &myShiftTo LEFT_SHIFT 0  &myControlKi LEFT_CONTROL 0  &kp I         &my_mc_nn LEFT_SHIFT 0
+&kp PERIOD  &mc_os_hi            &mc_os_su                    &mc_os_hu                &mc_os_he         &kp F4             &mc_os_me  &mc_os_so                &mc_os_ne                    &mc_os_ho     &myholdtap1 LEFT_CONTROL SLASH
 &lt 4 TAB   &kp LG(L)            &mo 3                        &mo 4                    &kp INT_MUHENKAN                     &kp SPACE  &mo 2                    &mo 1                        &kp LEFT_GUI  &myholdtap_lowspeed LEFT_ALT ENTER
             >;
         };
@@ -1407,8 +1416,8 @@
         ank {
             bindings = <
 &kp Q   &kp W                   &kp E                       &kp R                     &kp T                   &kp NUMBER_1  &kp Y      &kp U                      &kp I                       &kp O       &kp P
-&kp A   &myholdtap1 LEFT_ALT S  &myholdtap1 LEFT_CONTROL D  &myholdtap1 LEFT_SHIFT F  &myholdtap1 LEFT_ALT G  &trans        &kp H      &myholdtap1 RIGHT_SHIFT J  &myholdtap1 LEFT_CONTROL K  &kp L       &kp MINUS
-&kp Z   &kp X                   &kp C                       &kp V                     &kp B                   &trans        &kp N      &kp M                      &kp COMMA                   &kp PERIOD  &kp QUESTION
+&kp A   &myholdtap1 LEFT_ALT S  &myholdtap1 LEFT_CONTROL D  &myholdtap1 LEFT_SHIFT F  &myholdtap1 LEFT_ALT G  &trans        &kp H      &myholdtap1 RIGHT_SHIFT J  &myholdtap1 LEFT_CONTROL K  &kp L       &myholdtap1 LEFT_SHIFT MINUS
+&kp Z   &kp X                   &kp C                       &kp V                     &kp B                   &trans        &kp N      &kp M                      &kp COMMA                   &kp PERIOD  &myholdtap1 LEFT_CONTROL QUESTION
 &trans  &trans                  &mo 3                       &lt 4 B                   &kp GRAVE                             &kp SPACE  &lt 2 N                    &none                       &trans      &mt LEFT_ALT ENTER
             >;
         };
