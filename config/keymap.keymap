@@ -658,7 +658,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            require-prior-idle-ms = <198>;
+            require-prior-idle-ms = <200>;
             flavor = "balanced";
         };
 
@@ -1421,37 +1421,37 @@
 
         ank {
             bindings = <
-&kp Q   &kp W                   &kp E                       &kp R                     &kp T                   &kp NUMBER_1  &kp Y      &kp U                      &kp I                       &kp O       &kp P
-&kp A   &myholdtap1 LEFT_ALT S  &myholdtap1 LEFT_CONTROL D  &myholdtap1 LEFT_SHIFT F  &myholdtap1 LEFT_ALT G  &trans        &kp H      &myholdtap1 RIGHT_SHIFT J  &myholdtap1 LEFT_CONTROL K  &kp L       &myholdtap1 LEFT_SHIFT MINUS
-&kp Z   &kp X                   &kp C                       &kp V                     &kp B                   &trans        &kp N      &kp M                      &kp COMMA                   &kp PERIOD  &myholdtap1 LEFT_CONTROL QUESTION
-&trans  &trans                  &mo 3                       &lt 4 B                   &kp GRAVE                             &kp SPACE  &lt 2 N                    &none                       &trans      &mt LEFT_ALT ENTER
+&kp Q                       &kp W                   &kp E                       &kp R                     &kp T                   &kp NUMBER_1  &kp Y      &kp U                      &kp I                       &kp O       &kp P
+&myholdtap1 LEFT_SHIFT A    &myholdtap1 LEFT_ALT S  &myholdtap1 LEFT_CONTROL D  &myholdtap1 LEFT_SHIFT F  &myholdtap1 LEFT_ALT G  &trans        &kp H      &myholdtap1 RIGHT_SHIFT J  &myholdtap1 LEFT_CONTROL K  &kp L       &myholdtap1 LEFT_SHIFT MINUS
+&myholdtap1 LEFT_CONTROL Z  &kp X                   &kp C                       &kp V                     &kp B                   &trans        &kp N      &kp M                      &kp COMMA                   &kp PERIOD  &myholdtap1 LEFT_CONTROL QUESTION
+&trans                      &trans                  &mo 3                       &lt 4 B                   &kp GRAVE                             &kp SPACE  &lt 2 N                    &none                       &trans      &mt LEFT_ALT ENTER
             >;
         };
 
         cursor+control {
             bindings = <
-&kp LC(NUMBER_1)  &kp LC(W)  &kp LC(E)                       &kp LC(R)                     &kp LC(T)                           &kp NUMBER_2  &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
-&kp LC(A)         &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &myholdtap1 LEFT_SHIFT LC(F)  &myholdtap1 LEFT_ALT K_APPLICATION  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &mc_ShiftSpace
-&kp LC(Z)         &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)                           &trans        &kp LC(N)  &kp LC(M)  &myHome    &myEnd     &kp LC(SPACE)
-&trans            &trans     &kp LA(TAB)                     &kp F2                        &myTBMHZH                                         &none      &none      &none      &trans     &mt RIGHT_ALT ENTER
+&kp LC(NUMBER_1)                    &kp LC(W)  &kp LC(E)                       &kp LC(R)                     &kp LC(T)                           &kp NUMBER_2  &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
+&myholdtap1 LC(LEFT_SHIFT) LC(A)    &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &myholdtap1 LEFT_SHIFT LC(F)  &myholdtap1 LEFT_ALT K_APPLICATION  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &mc_ShiftSpace
+&myholdtap1 LC(LEFT_CONTROL) LC(Z)  &kp LC(X)  &kp LC(C)                       &kp LC(V)                     &kp LC(B)                           &trans        &kp LC(N)  &kp LC(M)  &myHome    &myEnd     &kp LC(SPACE)
+&trans                              &trans     &kp LA(TAB)                     &kp F2                        &myTBMHZH                                         &none      &none      &none      &trans     &mt RIGHT_ALT ENTER
             >;
         };
 
         number {
             bindings = <
-&kp LS(NUMBER_1)    &kp LS(NUMBER_2)  &kp RS(NUMBER_3)                    &kp LS(NUMBER_4)                     &kp EQUAL         &kp NUMBER_3  &kp LS(SEMICOLON)        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp INT_YEN
-&kp LS(LEFT_BRACE)  &kp LS(NUMBER_7)  &myholdtap1 LEFT_CONTROL SEMICOLON  &myholdtap1 LEFT_SHIFT SINGLE_QUOTE  &kp LS(NUMBER_5)  &trans        &kp MINUS                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SINGLE_QUOTE)
-&kp LEFT_BRACKET    &myKakkoHiraku    &myKakkoTojiru                      &kp LS(INTERNATIONAL_1)              &kp LS(NUMBER_6)  &trans        &kp LS(INTERNATIONAL_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-&trans              &trans            &none                               &none                                &none                           &kp LS(MINUS)            &kp NUMBER_0  &kp PERIOD    &trans        &mt RIGHT_ALT ENTER
+&kp LS(NUMBER_1)                           &kp LS(NUMBER_2)  &kp RS(NUMBER_3)                    &kp LS(NUMBER_4)                     &kp EQUAL         &kp NUMBER_3  &kp LS(SEMICOLON)        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp INT_YEN
+&myholdtap1 LS(LEFT_SHIFT) LS(LEFT_BRACE)  &kp LS(NUMBER_7)  &myholdtap1 LEFT_CONTROL SEMICOLON  &myholdtap1 LEFT_SHIFT SINGLE_QUOTE  &kp LS(NUMBER_5)  &trans        &kp MINUS                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SINGLE_QUOTE)
+&myholdtap1 LEFT_CONTROL LEFT_BRACKET      &myKakkoHiraku    &myKakkoTojiru                      &kp LS(INTERNATIONAL_1)              &kp LS(NUMBER_6)  &trans        &kp LS(INTERNATIONAL_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&trans                                     &trans            &none                               &none                                &none                           &kp LS(MINUS)            &kp NUMBER_0  &kp PERIOD    &trans        &mt RIGHT_ALT ENTER
             >;
         };
 
         mouse {
             bindings = <
-&kp F1           &kp F2          &kp F3            &kp F4          &kp F5                      &kp NUMBER_4  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10
-&kp F11          &kp F12         &mkp RCLK         &mkp LCLK       &myholdtap1 LEFT_ALT K_APP  &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp LCLK
-&kp PRINTSCREEN  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none                       &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &mkp RCLK
-&none            &kp LEFT_SHIFT  &none             &none           &none                                     &none           &none           &none         &trans           &mt RIGHT_ALT ENTER
+&kp F1                                &kp F2          &kp F3            &kp F4          &kp F5                      &kp NUMBER_4  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10
+&myholdtap1 LEFT_SHIFT F11            &kp F12         &mkp RCLK         &mkp LCLK       &myholdtap1 LEFT_ALT K_APP  &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp LCLK
+&myholdtap1 LEFT_CONTROL PRINTSCREEN  &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none                       &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &mkp RCLK
+&none                                 &kp LEFT_SHIFT  &none             &none           &none                                     &none           &none           &none         &trans           &mt RIGHT_ALT ENTER
             >;
         };
 
