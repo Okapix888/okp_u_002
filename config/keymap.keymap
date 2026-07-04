@@ -1441,7 +1441,7 @@
             bindings = <
 &kp LS(NUMBER_1)                      &kp LS(NUMBER_2)  &kp RS(NUMBER_3)    &kp LS(NUMBER_4)                     &kp EQUAL         &kp NUMBER_3  &kp LS(SEMICOLON)        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp INT_YEN
 &myholdtap1 LS(LEFT_SHIFT) SEMICOLON  &myKakkoHiraku    &myKakkoTojiru      &myholdtap1 LEFT_SHIFT SINGLE_QUOTE  &kp LS(NUMBER_5)  &trans        &kp MINUS                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SINGLE_QUOTE)
-&myholdtap1 LEFT_CONTROL LS(INT1)     &kp LS(N7)        &kp LS(LEFT_BRACE)  &kp LEFT_BRACE                       &kp LS(NUMBER_6)  &trans        &kp LS(INTERNATIONAL_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&myholdtap1 LEFT_CONTROL LS(INT1)     &kp LS(N7)        &kp LS(LEFT_BRACE)  &kp LEFT_BRACKET                     &kp LS(NUMBER_6)  &trans        &kp LS(INTERNATIONAL_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
 &trans                                &trans            &none               &none                                &none                           &kp LS(MINUS)            &kp NUMBER_0  &kp PERIOD    &trans        &mt RIGHT_ALT ENTER
             >;
         };
