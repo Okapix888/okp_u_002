@@ -19,11 +19,22 @@
             key-positions = <30 31>;
         };
 
-        cb_os_e {
-            bindings = <&kp E>;
-            key-positions = <1 36>;
-            layers = <0>;
+        cb_ins {
+            bindings = <&kp INS>;
+            key-positions = <9 8>;
         };
+
+        cb_to0 {
+            bindings = <&mc_to0>;
+            key-positions = <14 13>;
+        };
+
+        cb_to1 {
+            bindings = <&mc_to1>;
+            key-positions = <18 19>;
+        };
+
+// 親指シフト設定
 
         cb_os_a {
             bindings = <&kp A>;
@@ -31,27 +42,9 @@
             layers = <0>;
         };
 
-        cb_os_na {
-            bindings = <&mc_os_na>;
-            key-positions = <36 13>;
-            layers = <0>;
-        };
-
-        cb_os_ni {
-            bindings = <&mc_os_ni>;
-            key-positions = <7 39>;
-            layers = <0>;
-        };
-
-        cb_os_nu {
-            bindings = <&mc_os_nu>;
-            key-positions = <39 28>;
-            layers = <0>;
-        };
-
-        cb_os_no {
-            bindings = <&mc_os_no>;
-            key-positions = <19 39>;
+        cb_os_e {
+            bindings = <&kp E>;
+            key-positions = <1 36>;
             layers = <0>;
         };
 
@@ -59,83 +52,6 @@
             bindings = <&kp O>;
             key-positions = <18 39>;
             layers = <0>;
-        };
-
-        cb_os_ma {
-            bindings = <&mc_os_ma>;
-            key-positions = <9 39>;
-            layers = <0>;
-        };
-
-        cb_os_mi {
-            bindings = <&mc_os_mi>;
-            key-positions = <39 17>;
-            layers = <0>;
-        };
-
-        cb_os_mu {
-            bindings = <&mc_os_mu>;
-            key-positions = <39 30>;
-            layers = <0>;
-        };
-
-        cb_os_mo {
-            bindings = <&mc_os_mo>;
-            key-positions = <15 36>;
-            layers = <0>;
-        };
-
-        cb_os_ya {
-            bindings = <&mc_os_ya>;
-            key-positions = <25 36>;
-            layers = <0>;
-        };
-
-        cb_os_yu {
-            bindings = <&mc_os_yu>;
-            key-positions = <39 29>;
-            layers = <0>;
-        };
-
-        cb_os_yo {
-            bindings = <&mc_os_yo>;
-            key-positions = <39 6>;
-            layers = <0>;
-        };
-
-        cb_os_wa {
-            bindings = <&mc_os_wa>;
-            key-positions = <39 31>;
-            layers = <0>;
-        };
-
-        cb_os_wo {
-            bindings = <&mc_os_wo>;
-            key-positions = <11 36>;
-            layers = <0>;
-        };
-
-        cb_os_ri {
-            bindings = <&mc_os_ri>;
-            key-positions = <2 36>;
-            layers = <0>;
-        };
-
-        cb_os_ru {
-            bindings = <&mc_os_ru>;
-            key-positions = <39 8>;
-            layers = <0>;
-        };
-
-        cb_os_re {
-            bindings = <&mc_os_re>;
-            key-positions = <4 36>;
-            layers = <0>;
-        };
-
-        cb_os_ro {
-            bindings = <&mc_os_ro>;
-            key-positions = <24 36>;
         };
 
         cb_os_xa {
@@ -163,52 +79,6 @@
         cb_os_xo {
             bindings = <&mc_os_xo>;
             key-positions = <32 39>;
-            layers = <0>;
-        };
-
-        cb_os_xya {
-            bindings = <&mc_os_xya>;
-            key-positions = <3 36>;
-        };
-
-        cb_os_xyu {
-            bindings = <&mc_os_xyu>;
-            key-positions = <14 36>;
-            layers = <0>;
-        };
-
-        cb_os_xyo {
-            bindings = <&mc_os_xyo>;
-            key-positions = <20 39>;
-        };
-
-        cb_os_pa {
-            bindings = <&mc_os_pa>;
-            key-positions = <6 36>;
-            layers = <0>;
-        };
-
-        cb_os_pi {
-            bindings = <&mc_os_pi>;
-            key-positions = <10 36>;
-            layers = <0>;
-        };
-
-        cb_os_pu {
-            bindings = <&mc_os_pu>;
-            key-positions = <36 28>;
-            layers = <0>;
-        };
-
-        cb_os_pe {
-            bindings = <&mc_os_pe>;
-            key-positions = <30 36>;
-            layers = <0>;
-        };
-
-        cb_os_po {
-            bindings = <&mc_os_po>;
-            key-positions = <20 36>;
             layers = <0>;
         };
 
@@ -272,6 +142,12 @@
             layers = <0>;
         };
 
+        cb_os_xtu {
+            bindings = <&mc_os_xtu>;
+            key-positions = <21 39>;
+            layers = <0>;
+        };
+
         cb_os_da {
             bindings = <&mc_os_da>;
             key-positions = <2 39>;
@@ -299,6 +175,30 @@
         cb_os_do {
             bindings = <&mc_os_do>;
             key-positions = <18 36>;
+            layers = <0>;
+        };
+
+        cb_os_na {
+            bindings = <&mc_os_na>;
+            key-positions = <36 13>;
+            layers = <0>;
+        };
+
+        cb_os_ni {
+            bindings = <&mc_os_ni>;
+            key-positions = <7 39>;
+            layers = <0>;
+        };
+
+        cb_os_nu {
+            bindings = <&mc_os_nu>;
+            key-positions = <39 28>;
+            layers = <0>;
+        };
+
+        cb_os_no {
+            bindings = <&mc_os_no>;
+            key-positions = <19 39>;
             layers = <0>;
         };
 
@@ -332,30 +232,132 @@
             layers = <0>;
         };
 
-        cb_os_chouon {
-            bindings = <&kp MINUS>;
-            key-positions = <23 36>;
-        };
-
-        cb_os_xtu {
-            bindings = <&mc_os_xtu>;
-            key-positions = <21 39>;
+        cb_os_pa {
+            bindings = <&mc_os_pa>;
+            key-positions = <6 36>;
             layers = <0>;
         };
 
-        cb_ins {
-            bindings = <&kp INS>;
-            key-positions = <9 8>;
+        cb_os_pi {
+            bindings = <&mc_os_pi>;
+            key-positions = <10 36>;
+            layers = <0>;
         };
 
-        cb_to1 {
-            bindings = <&mc_to1>;
-            key-positions = <18 19>;
+        cb_os_pu {
+            bindings = <&mc_os_pu>;
+            key-positions = <36 28>;
+            layers = <0>;
         };
 
-        cb_to0 {
-            bindings = <&mc_to0>;
-            key-positions = <14 13>;
+        cb_os_pe {
+            bindings = <&mc_os_pe>;
+            key-positions = <30 36>;
+            layers = <0>;
+        };
+
+        cb_os_po {
+            bindings = <&mc_os_po>;
+            key-positions = <20 36>;
+            layers = <0>;
+        };
+
+        cb_os_ma {
+            bindings = <&mc_os_ma>;
+            key-positions = <9 39>;
+            layers = <0>;
+        };
+
+        cb_os_mi {
+            bindings = <&mc_os_mi>;
+            key-positions = <39 17>;
+            layers = <0>;
+        };
+
+        cb_os_mu {
+            bindings = <&mc_os_mu>;
+            key-positions = <39 30>;
+            layers = <0>;
+        };
+
+        cb_os_mo {
+            bindings = <&mc_os_mo>;
+            key-positions = <15 36>;
+            layers = <0>;
+        };
+
+        cb_os_ya {
+            bindings = <&mc_os_ya>;
+            key-positions = <25 36>;
+            layers = <0>;
+        };
+
+        cb_os_yu {
+            bindings = <&mc_os_yu>;
+            key-positions = <39 29>;
+            layers = <0>;
+        };
+
+        cb_os_yo {
+            bindings = <&mc_os_yo>;
+            key-positions = <39 6>;
+            layers = <0>;
+        };
+
+        cb_os_xya {
+            bindings = <&mc_os_xya>;
+            key-positions = <3 36>;
+        };
+
+        cb_os_xyu {
+            bindings = <&mc_os_xyu>;
+            key-positions = <14 36>;
+            layers = <0>;
+        };
+
+        cb_os_xyo {
+            bindings = <&mc_os_xyo>;
+            key-positions = <20 39>;
+        };
+
+        cb_os_ri {
+            bindings = <&mc_os_ri>;
+            key-positions = <2 36>;
+            layers = <0>;
+        };
+
+        cb_os_ru {
+            bindings = <&mc_os_ru>;
+            key-positions = <39 8>;
+            layers = <0>;
+        };
+
+        cb_os_re {
+            bindings = <&mc_os_re>;
+            key-positions = <4 36>;
+            layers = <0>;
+        };
+
+        cb_os_ro {
+            bindings = <&mc_os_ro>;
+            key-positions = <24 36>;
+        };
+
+        cb_os_wa {
+            bindings = <&mc_os_wa>;
+            key-positions = <39 31>;
+            layers = <0>;
+        };
+
+        cb_os_wo {
+            bindings = <&mc_os_wo>;
+            key-positions = <11 36>;
+            layers = <0>;
+        };
+
+        cb_os_chouon {
+            bindings = <&kp MINUS>;
+            key-positions = <23 36>;
         };
     };
 
