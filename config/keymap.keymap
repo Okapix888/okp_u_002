@@ -604,7 +604,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "balanced";
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <200>;
         };
 
         myShiftTo: myShiftTo {
@@ -614,7 +614,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <200>;
             flavor = "balanced";
         };
 
@@ -625,7 +625,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <200>;
             flavor = "balanced";
         };
 
@@ -636,7 +636,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <200>;
             flavor = "balanced";
         };
 
@@ -647,7 +647,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <200>;
             flavor = "balanced";
         };
 
@@ -658,7 +658,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <198>;
             flavor = "balanced";
         };
 
