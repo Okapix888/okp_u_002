@@ -596,72 +596,6 @@
             tapping-term-ms = <300>;
         };
 
-        myShiftKe: myShiftKe {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MYSHIFTKE";
-            bindings = <&kp>, <&mc_os_ke>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            require-prior-idle-ms = <200>;
-        };
-
-        myShiftTo: myShiftTo {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MYSHIFTTO";
-            bindings = <&kp>, <&mc_os_to>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            require-prior-idle-ms = <200>;
-            flavor = "balanced";
-        };
-
-        myControlTe: myControlTe {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MYCONTROLTE";
-            bindings = <&kp>, <&mc_os_te>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            require-prior-idle-ms = <200>;
-            flavor = "balanced";
-        };
-
-        myControlKi: myControlKi {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MYCONTROLKI";
-            bindings = <&kp>, <&mc_os_ki>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            require-prior-idle-ms = <200>;
-            flavor = "balanced";
-        };
-
-        myAltSe: myAltSe {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MYALTSE";
-            bindings = <&kp>, <&mc_os_se>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            require-prior-idle-ms = <200>;
-            flavor = "balanced";
-        };
-
-        myAltSi: myAltSi {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MYALTSI";
-            bindings = <&kp>, <&mc_os_si>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            require-prior-idle-ms = <200>;
-            flavor = "balanced";
-        };
-
         test_tap: test_tap {
             compatible = "zmk,behavior-tap-dance";
             label = "TEST_TAP";
@@ -688,17 +622,6 @@
             tapping-term-ms = <250>;
             flavor = "balanced";
             require-prior-idle-ms = <128>;
-        };
-
-        my_mc_nn: my_mc_nn {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MY_MC_NN";
-            bindings = <&kp>, <&mc_os_nn>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <120>;
-            require-prior-idle-ms = <120>;
-            flavor = "balanced";
         };
     };
 
