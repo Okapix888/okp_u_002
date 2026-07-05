@@ -479,7 +479,7 @@
 
         cb_enter {
             bindings = <&kp ENTER>;
-            key-positions = <36 39>;
+            key-positions = <14 18>;
         };
 
         cb_tab {
@@ -526,7 +526,7 @@
 
         cb_space {
             bindings = <&kp SPACE>;
-            key-positions = <14 18>;
+            key-positions = <36 39>;
         };
     };
 
