@@ -1353,10 +1353,10 @@
 
         cursor+control {
             bindings = <
-&kp LC(NUMBER_1)                    &kp LC(W)  &kp LC(E)                       &kp LC(R)  &kp LC(T)          &kp NUMBER_2  &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
-&myholdtap1 LC(LEFT_SHIFT) LC(A)    &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &kp LC(F)  &kp LC(G)          &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &mc_ShiftSpace
-&myholdtap1 LC(LEFT_CONTROL) LC(Z)  &kp LC(X)  &kp LC(C)                       &kp LC(V)  &kp LC(B)          &trans        &kp LC(N)  &kp LC(M)  &myHome    &myEnd     &kp LC(SPACE)
-&lt 4 K_SCROLL_UP                   &trans     &kp LA(TAB)                     &kp F2     &kp K_APPLICATION                &none      &none      &none      &trans     &mt RIGHT_ALT K_SCROLL_DOWN
+&kp LC(NUMBER_1)                &kp LC(W)  &kp LC(E)                       &kp LC(R)  &kp LC(T)          &kp NUMBER_2  &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
+&myholdtap1 LEFT_SHIFT LC(A)    &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &kp LC(F)  &kp LC(G)          &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &mc_ShiftSpace
+&myholdtap1 LEFT_CONTROL LC(Z)  &kp LC(X)  &kp LC(C)                       &kp LC(V)  &kp LC(B)          &trans        &kp LC(N)  &kp LC(M)  &myHome    &myEnd     &kp LC(SPACE)
+&lt 4 K_SCROLL_UP               &trans     &kp LA(TAB)                     &kp F2     &kp K_APPLICATION                &none      &none      &none      &trans     &mt RIGHT_ALT K_SCROLL_DOWN
             >;
         };
 
