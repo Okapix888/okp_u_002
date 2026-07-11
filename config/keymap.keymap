@@ -607,9 +607,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "TEST_HOLDTAP";
             #binding-cells = <2>;
-            tapping-term-ms = <1000>;
+            tapping-term-ms = <2000>;
             flavor = "balanced";
-            require-prior-idle-ms = <1000>;
+            require-prior-idle-ms = <2000>;
             bindings = <&kp>, <&kp>;
         };
 
