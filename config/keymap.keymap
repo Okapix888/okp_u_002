@@ -1386,7 +1386,7 @@
 &kp PERIOD                       &mc_os_ka  &mc_os_ta                 &mc_os_ko  &mc_os_sa         &test_holdtap LEFT_SHIFT NUMBER_1  &mc_os_ra  &mc_os_ti  &mc_os_ku    &mc_os_tu     &kp COMMA
 &myholdtap1 LEFT_SHIFT U         &mc_os_si  &mc_os_te                 &mc_os_ke  &mc_os_se         &kp C_MUTE                         &mc_os_ha  &mc_os_to  &mc_os_ki    &kp I         &myHoldTapNN LEFT_SHIFT 0
 &myholdtap1 LEFT_CONTROL PERIOD  &mc_os_hi  &mc_os_su                 &mc_os_hu  &mc_os_he         &kp F4                             &mc_os_me  &mc_os_so  &mc_os_ne    &mc_os_ho     &myholdtap1 LEFT_CONTROL SLASH
-&lt 4 TAB                        &kp LG(L)  &my_LtZenHan 4 LA(TILDE)  &mo 3      &kp INT_MUHENKAN                                     &kp SPACE  &mo 2      &myLts1 2 0  &kp LEFT_GUI  &myholdtap_lowspeed LEFT_ALT ENTER
+&lt 4 TAB                        &kp LG(L)  &my_LtZenHan 4 LA(TILDE)  &mo 3      &kp INT_MUHENKAN                                     &kp SPACE  &mo 2      &myLts1 1 0  &kp LEFT_GUI  &myholdtap_lowspeed LEFT_ALT ENTER
             >;
         };
 
