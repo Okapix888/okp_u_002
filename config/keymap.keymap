@@ -648,7 +648,7 @@
             bindings = <&mo>, <&mc_to1>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <118>;
             flavor = "balanced";
         };
 
@@ -658,7 +658,7 @@
             bindings = <&mo>, <&mc_to0>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <120>;
             flavor = "balanced";
         };
 
@@ -668,7 +668,7 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <120>;
             flavor = "balanced";
         };
     };
@@ -1392,10 +1392,10 @@
 
         ank {
             bindings = <
-&kp Q                       &kp W   &kp E                     &kp R    &kp T      &kp NUMBER_1  &kp Y      &kp U    &kp I         &kp O       &kp P
-&myholdtap1 LEFT_SHIFT A    &kp S   &kp D                     &kp F    &kp G      &trans        &kp H      &kp J    &kp K         &kp L       &myholdtap1 LEFT_SHIFT MINUS
-&myholdtap1 LEFT_CONTROL Z  &kp X   &kp C                     &kp V    &kp B      &trans        &kp N      &kp M    &kp COMMA     &kp PERIOD  &myholdtap1 LEFT_CONTROL QUESTION
-&lt 4 TAB                   &trans  &my_LtZenHan 4 LA(TILDE)  &lt 3 B  &kp GRAVE                &kp SPACE  &lt 2 N  &my_Lts0 2 0  &trans      &mt LEFT_ALT ENTER
+&kp Q                       &kp W   &kp E                     &kp R    &kp T      &kp NUMBER_1  &kp Y      &kp U    &kp I      &kp O       &kp P
+&myholdtap1 LEFT_SHIFT A    &kp S   &kp D                     &kp F    &kp G      &trans        &kp H      &kp J    &kp K      &kp L       &myholdtap1 LEFT_SHIFT MINUS
+&myholdtap1 LEFT_CONTROL Z  &kp X   &kp C                     &kp V    &kp B      &trans        &kp N      &kp M    &kp COMMA  &kp PERIOD  &myholdtap1 LEFT_CONTROL QUESTION
+&lt 4 TAB                   &trans  &my_LtZenHan 4 LA(TILDE)  &lt 3 B  &kp GRAVE                &kp SPACE  &lt 2 N  &mc_to0    &trans      &mt LEFT_ALT ENTER
             >;
         };
 
