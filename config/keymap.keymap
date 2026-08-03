@@ -1393,10 +1393,10 @@
 
         SumShift {
             bindings = <
-&kp PERIOD                               &mc_os_ka  &mc_os_ta                 &mc_os_ko  &mc_os_sa         &test_holdtap LEFT_SHIFT NUMBER_1  &mc_os_ra  &mc_os_ti  &mc_os_ku    &mc_os_tu     &kp COMMA
-&myholdtap_lowspeed LEFT_SHIFT U         &mc_os_si  &mc_os_te                 &mc_os_ke  &mc_os_se         &kp C_MUTE                         &mc_os_ha  &mc_os_to  &mc_os_ki    &kp I         &myHoldTapNN LEFT_SHIFT 0
-&myholdtap_lowspeed LEFT_CONTROL PERIOD  &mc_os_hi  &mc_os_su                 &mc_os_hu  &mc_os_he         &kp F4                             &mc_os_me  &mc_os_so  &mc_os_ne    &mc_os_ho     &myholdtap1 LEFT_CONTROL SLASH
-&mylt_lowspeed 4 TAB                     &kp LG(L)  &my_LtZenHan 4 LA(TILDE)  &mo 3      &kp INT_MUHENKAN                                     &kp SPACE  &mo 2      &myLts1 1 0  &kp LEFT_GUI  &myholdtap_lowspeed LEFT_ALT ENTER
+&kp PERIOD                               &mc_os_ka  &mc_os_ta                 &mc_os_ko  &mc_os_sa         &test_holdtap LEFT_SHIFT NUMBER_1  &mc_os_ra  &mc_os_ti  &mc_os_ku  &mc_os_tu     &kp COMMA
+&myholdtap_lowspeed LEFT_SHIFT U         &mc_os_si  &mc_os_te                 &mc_os_ke  &mc_os_se         &kp C_MUTE                         &mc_os_ha  &mc_os_to  &mc_os_ki  &kp I         &myHoldTapNN LEFT_SHIFT 0
+&myholdtap_lowspeed LEFT_CONTROL PERIOD  &mc_os_hi  &mc_os_su                 &mc_os_hu  &mc_os_he         &kp F4                             &mc_os_me  &mc_os_so  &mc_os_ne  &mc_os_ho     &myholdtap1 LEFT_CONTROL SLASH
+&mylt_lowspeed 4 TAB                     &kp LG(L)  &my_LtZenHan 4 LA(TILDE)  &mo 3      &kp INT_MUHENKAN                                     &kp SPACE  &mo 2      &mo 1      &kp LEFT_GUI  &myholdtap_lowspeed LEFT_ALT ENTER
             >;
         };
 
@@ -1405,7 +1405,7 @@
 &kp Q                               &kp W   &kp E                     &kp R    &kp T      &kp NUMBER_1  &kp Y      &kp U    &kp I      &kp O       &kp P
 &myholdtap_lowspeed LEFT_SHIFT A    &kp S   &kp D                     &kp F    &kp G      &trans        &kp H      &kp J    &kp K      &kp L       &myholdtap1 LEFT_SHIFT MINUS
 &myholdtap_lowspeed LEFT_CONTROL Z  &kp X   &kp C                     &kp V    &kp B      &trans        &kp N      &kp M    &kp COMMA  &kp PERIOD  &myholdtap1 LEFT_CONTROL QUESTION
-&mylt_lowspeed 4 TAB                &trans  &my_LtZenHan 4 LA(TILDE)  &lt 3 B  &kp GRAVE                &kp SPACE  &lt 2 N  &mc_to0    &trans      &mt LEFT_ALT ENTER
+&mylt_lowspeed 4 TAB                &trans  &my_LtZenHan 4 LA(TILDE)  &lt 3 B  &kp GRAVE                &kp SPACE  &lt 2 N  &none      &trans      &mt LEFT_ALT ENTER
             >;
         };
 
@@ -1414,7 +1414,7 @@
 &kp LC(NUMBER_1)                &kp LC(W)  &kp LC(E)                       &kp LC(R)  &kp LC(T)              &kp NUMBER_2  &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
 &myholdtap1 LEFT_SHIFT LC(A)    &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &kp LC(F)  &kp LC(K_APPLICATION)  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &mc_ShiftSpace
 &myholdtap1 LEFT_CONTROL LC(Z)  &kp LC(X)  &kp LC(C)                       &kp LC(V)  &kp LC(B)              &trans        &kp LC(N)  &kp LC(M)  &myHome    &myEnd     &kp LC(SPACE)
-&lt 4 K_SCROLL_UP               &trans     &kp LA(TAB)                     &kp F2     &kp K_APPLICATION                    &none      &none      &none      &trans     &mt RIGHT_ALT K_SCROLL_DOWN
+&lt 4 TAB                       &trans     &kp LA(TAB)                     &kp F2     &kp K_APPLICATION                    &none      &none      &none      &trans     &mt RIGHT_ALT ENTER
             >;
         };
 
@@ -1438,7 +1438,7 @@
 
         remo-con {
             bindings = <
-&trans  &trans  &trans  &trans  &trans        &kp NUMBER_6  &trans       &trans       &trans          &trans           &trans
+&trans  &trans  &trans  &kp F4  &trans        &kp NUMBER_6  &trans       &trans       &trans          &trans           &trans
 &trans  &trans  &trans  &trans  &kp LEFT_ALT  &trans        &kp TAB      &kp LA(TAB)  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans  &trans  &trans  &trans        &trans        &kp LS(TAB)  &kp ENTER    &kp UP_ARROW    &kp DOWN_ARROW   &trans
 &trans  &trans  &trans  &trans  &trans                      &trans       &trans       &trans          &trans           &trans
