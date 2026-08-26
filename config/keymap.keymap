@@ -473,7 +473,7 @@
         };
 
         cb_toggle_pso {
-            bindings = <&tog 3>;
+            bindings = <&tog 2>;
             key-positions = <4 6>;
         };
 
@@ -530,7 +530,7 @@
         };
 
         cb_toggle_remo {
-            bindings = <&tog 3>;
+            bindings = <&tog 6>;
             key-positions = <26 28>;
         };
     };
