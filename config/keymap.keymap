@@ -1416,9 +1416,9 @@
 
         PSO {
             bindings = <
-&kp LS(F1)    &kp LS(F2)  &kp W    &kp LS(F4)        &kp LS(F5)  &kp NUMBER_6  &kp END     &kp N7            &kp N8            &kp N9        &kp F12
+&kp LS(F1)    &kp LS(F2)  &kp W    &kp LS(F4)        &kp LS(F5)  &kp NUMBER_6  &kp F4      &kp N7            &kp N8            &kp N9        &kp F12
 &kp UP_ARROW  &kp A       &kp S    &kp D             &none       &trans        &kp ESCAPE  &kp NUMBER_4      &kp N5            &kp NUMBER_6  &kp N0
-&kp ESCAPE    &none       &kp END  &trans            &trans      &trans        &kp F4      &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp LC(M)
+&kp ESCAPE    &none       &kp END  &trans            &trans      &trans        &kp END     &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp LC(M)
 &kp LA(F4)    &trans      &trans   &kp LEFT_CONTROL  &kp SPACE                 &mo 3       &kp LEFT_CONTROL  &kp LEFT_CONTROL  &trans        &kp ENTER
             >;
         };
