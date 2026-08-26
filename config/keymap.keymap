@@ -473,7 +473,7 @@
         };
 
         cb_toggle_to5 {
-            bindings = <&tog 5>;
+            bindings = <&tog 1>;
             key-positions = <15 17>;
         };
 
@@ -1369,7 +1369,7 @@
         mc_to1: mc_to1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_2 &to 1>;
+            bindings = <&kp LANGUAGE_2 &to 2>;
             label = "MC_TO1";
         };
 
@@ -1396,7 +1396,16 @@
 &kp PERIOD                               &mc_os_ka  &mc_os_ta                 &mc_os_ko  &mc_os_sa         &test_holdtap LEFT_SHIFT NUMBER_1  &mc_os_ra  &mc_os_ti  &mc_os_ku  &mc_os_tu     &kp COMMA
 &myholdtap_lowspeed LEFT_SHIFT U         &mc_os_si  &mc_os_te                 &mc_os_ke  &mc_os_se         &kp C_MUTE                         &mc_os_ha  &mc_os_to  &mc_os_ki  &kp I         &myHoldTapNN LEFT_SHIFT 0
 &myholdtap_lowspeed LEFT_CONTROL PERIOD  &mc_os_hi  &mc_os_su                 &mc_os_hu  &mc_os_he         &kp F4                             &mc_os_me  &mc_os_so  &mc_os_ne  &mc_os_ho     &myholdtap1 LEFT_CONTROL SLASH
-&mylt_lowspeed 4 TAB                     &kp LG(L)  &my_LtZenHan 4 LA(TILDE)  &mo 3      &kp INT_MUHENKAN                                     &kp SPACE  &mo 2      &mo 1      &kp LEFT_GUI  &myholdtap_lowspeed LEFT_ALT ENTER
+&mylt_lowspeed 5 TAB                     &kp LG(L)  &my_LtZenHan 5 LA(TILDE)  &mo 4      &kp INT_MUHENKAN                                     &kp SPACE  &mo 3      &mo 2      &kp LEFT_GUI  &myholdtap_lowspeed LEFT_ALT ENTER
+            >;
+        };
+
+        remo-con {
+            bindings = <
+&kp TAB      &kp UP_ARROW  &trans    &kp F4     &trans        &kp NUMBER_6  &kp LC(END)       &kp N7        &kp N8            &kp N9        &kp F2
+&kp LA(TAB)  &kp DOWN      &kp LEFT  &kp RIGHT  &kp LEFT_ALT  &trans        &kp ESCAPE        &kp NUMBER_4  &kp N5            &kp NUMBER_6  &kp N0
+&trans       &kp ENTER     &trans    &trans     &trans        &trans        &kp F4            &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp F3
+&kp LA(F4)   &trans        &trans    &trans     &trans                      &kp LEFT_CONTROL  &mo 3         &kp LEFT_CONTROL  &trans        &kp ENTER
             >;
         };
 
@@ -1405,7 +1414,7 @@
 &kp Q                               &kp W   &kp E                     &kp R    &kp T      &kp NUMBER_1  &kp Y      &kp U    &kp I      &kp O       &kp P
 &myholdtap_lowspeed LEFT_SHIFT A    &kp S   &kp D                     &kp F    &kp G      &trans        &kp H      &kp J    &kp K      &kp L       &myholdtap1 LEFT_SHIFT MINUS
 &myholdtap_lowspeed LEFT_CONTROL Z  &kp X   &kp C                     &kp V    &kp B      &trans        &kp N      &kp M    &kp COMMA  &kp PERIOD  &myholdtap1 LEFT_CONTROL QUESTION
-&mylt_lowspeed 4 TAB                &trans  &my_LtZenHan 4 LA(TILDE)  &lt 3 B  &kp SPACE                &kp SPACE  &lt 2 N  &kp GRAVE  &trans      &mt LEFT_ALT ENTER
+&mylt_lowspeed 5 TAB                &trans  &my_LtZenHan 5 LA(TILDE)  &lt 4 B  &kp SPACE                &kp SPACE  &lt 3 N  &kp GRAVE  &trans      &mt LEFT_ALT ENTER
             >;
         };
 
@@ -1414,7 +1423,7 @@
 &kp LC(NUMBER_1)                &kp LC(W)  &kp LC(E)                       &kp LC(R)  &kp LC(T)              &kp NUMBER_2  &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
 &myholdtap1 LEFT_SHIFT LC(A)    &kp LC(S)  &myholdtap1 LEFT_CONTROL LC(D)  &kp LC(F)  &kp LC(K_APPLICATION)  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &mc_ShiftSpace
 &myholdtap1 LEFT_CONTROL LC(Z)  &kp LC(X)  &kp LC(C)                       &kp LC(V)  &kp LC(B)              &trans        &kp LC(N)  &kp LC(M)  &myHome    &myEnd     &kp LC(SPACE)
-&lt 4 TAB                       &trans     &kp LA(TAB)                     &kp F2     &kp K_APPLICATION                    &none      &none      &none      &trans     &mt RIGHT_ALT ENTER
+&lt 5 TAB                       &trans     &kp LA(TAB)                     &kp F2     &kp K_APPLICATION                    &none      &none      &none      &trans     &mt RIGHT_ALT ENTER
             >;
         };
 
@@ -1423,7 +1432,7 @@
 &myTapDanceQuote                     &kp LS(NUMBER_2)  &myKakkoHiraku    &myKakkoTojiru    &kp EQUAL         &kp NUMBER_3  &kp LS(SEMICOLON)        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp INT_YEN
 &myholdtap1 LEFT_SHIFT LS(NUMBER_3)  &kp LS(NUMBER_4)  &mkp RCLK         &mkp LCLK         &kp LS(NUMBER_5)  &trans        &kp MINUS                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SINGLE_QUOTE)
 &myholdtap1 LEFT_CONTROL LS(INT1)    &kp SEMI          &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp LS(NUMBER_6)  &trans        &kp LS(INTERNATIONAL_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-&lt 4 TAB                            &trans            &none             &none             &none                           &kp LS(MINUS)            &kp NUMBER_0  &kp PERIOD    &trans        &mt RIGHT_ALT ENTER
+&lt 5 TAB                            &trans            &none             &none             &none                           &kp LS(MINUS)            &kp NUMBER_0  &kp PERIOD    &trans        &mt RIGHT_ALT ENTER
             >;
         };
 
@@ -1433,15 +1442,6 @@
 &myholdtap1 LEFT_SHIFT F11            &kp F12       &mkp RCLK         &mkp LCLK       &myholdtap1 LEFT_ALT K_APP  &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp LCLK
 &myholdtap1 LEFT_CONTROL PRINTSCREEN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none                       &trans        &none           &none           &msc SCRL_UP  &msc SCRL_DOWN   &mkp RCLK
 &kp TAB                               &trans        &none             &none           &none                                     &none           &none           &none         &trans           &mt RIGHT_ALT ENTER
-            >;
-        };
-
-        remo-con {
-            bindings = <
-&kp TAB      &kp UP_ARROW  &trans    &kp F4     &trans        &kp NUMBER_6  &kp F11           &kp N7        &kp N8            &kp N9        &kp F2
-&kp LA(TAB)  &kp DOWN      &kp LEFT  &kp RIGHT  &kp LEFT_ALT  &trans        &kp TAB           &kp NUMBER_4  &kp N5            &kp NUMBER_6  &kp N0
-&trans       &kp ENTER     &trans    &trans     &trans        &trans        &kp F4            &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp F3
-&kp LA(F4)   &trans        &trans    &trans     &trans                      &kp LEFT_CONTROL  &mo 2         &kp LEFT_CONTROL  &trans        &kp ENTER
             >;
         };
     };
