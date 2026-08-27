@@ -474,7 +474,7 @@
 
         cb_toggle_pso {
             bindings = <&tog 2>;
-            key-positions = <11 21>;
+            key-positions = <18 17>;
         };
 
         cb_enter {
